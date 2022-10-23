@@ -1,0 +1,3 @@
+
+epoch: 0	train acc on train images is 16.855034167199488
+	test acc on test images is 27.3
