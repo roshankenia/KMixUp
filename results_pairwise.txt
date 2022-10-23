@@ -1,0 +1,608 @@
+
+epoch: 0	train acc on train images is 18.986615349264707
+	test acc on test images is 18.25
+
+epoch: 1	train acc on train images is 27.704139026534527
+	test acc on test images is 28.28
+
+epoch: 2	train acc on train images is 31.691236413043477
+	test acc on test images is 27.7
+
+epoch: 3	train acc on train images is 34.09322550351662
+	test acc on test images is 28.54
+
+epoch: 4	train acc on train images is 36.47660995444373
+	test acc on test images is 33.51
+
+epoch: 5	train acc on train images is 38.021479379795394
+	test acc on test images is 38.15
+
+epoch: 6	train acc on train images is 39.10999440537084
+	test acc on test images is 40.94
+
+epoch: 7	train acc on train images is 40.050476542519185
+	test acc on test images is 45.44
+
+epoch: 8	train acc on train images is 41.06736782688619
+	test acc on test images is 40.66
+
+epoch: 9	train acc on train images is 41.88022997921995
+	test acc on test images is 43.08
+
+epoch: 10	train acc on train images is 43.073929028132994
+	test acc on test images is 44.58
+
+epoch: 11	train acc on train images is 43.741857816496164
+	test acc on test images is 48.06
+
+epoch: 12	train acc on train images is 44.24940557065217
+	test acc on test images is 49.89
+
+epoch: 13	train acc on train images is 44.87050931106138
+	test acc on test images is 64.51
+
+epoch: 14	train acc on train images is 45.04399276694373
+	test acc on test images is 57.99
+
+epoch: 15	train acc on train images is 45.1065876758312
+	test acc on test images is 58.82
+
+epoch: 16	train acc on train images is 45.98155770460358
+	test acc on test images is 60.33
+
+epoch: 17	train acc on train images is 46.02006573689258
+	test acc on test images is 65.1
+
+epoch: 18	train acc on train images is 46.63310721707161
+	test acc on test images is 60.98
+
+epoch: 19	train acc on train images is 46.21657209079284
+	test acc on test images is 58.06
+
+epoch: 20	train acc on train images is 46.90905230978261
+	test acc on test images is 62.54
+
+epoch: 21	train acc on train images is 46.75853680466752
+	test acc on test images is 65.99
+
+epoch: 22	train acc on train images is 47.33812539961637
+	test acc on test images is 63.9
+
+epoch: 23	train acc on train images is 47.0231577685422
+	test acc on test images is 63.62
+
+epoch: 24	train acc on train images is 47.25456561700767
+	test acc on test images is 68.76
+
+epoch: 25	train acc on train images is 47.47289102461637
+	test acc on test images is 63.63
+
+epoch: 26	train acc on train images is 47.735204203964194
+	test acc on test images is 68.56
+
+epoch: 27	train acc on train images is 47.3896509351023
+	test acc on test images is 72.24
+
+epoch: 28	train acc on train images is 47.82596707161125
+	test acc on test images is 67.56
+
+epoch: 29	train acc on train images is 47.70329483695652
+	test acc on test images is 65.08
+
+epoch: 30	train acc on train images is 47.7512537963555
+	test acc on test images is 72.19
+
+epoch: 31	train acc on train images is 48.17013666879795
+	test acc on test images is 67.79
+
+epoch: 32	train acc on train images is 48.238680866368284
+	test acc on test images is 67.92
+
+epoch: 33	train acc on train images is 48.09136728740409
+	test acc on test images is 68.82
+
+epoch: 34	train acc on train images is 47.77394701086956
+	test acc on test images is 58.85
+
+epoch: 35	train acc on train images is 48.14681905370844
+	test acc on test images is 63.56
+
+epoch: 36	train acc on train images is 48.312105378836314
+	test acc on test images is 67.58
+
+epoch: 37	train acc on train images is 48.45417898817136
+	test acc on test images is 76.46
+
+epoch: 38	train acc on train images is 48.724924072890026
+	test acc on test images is 68.94
+
+epoch: 39	train acc on train images is 48.34713175351662
+	test acc on test images is 69.58
+
+epoch: 40	train acc on train images is 48.516748921035806
+	test acc on test images is 73.07
+
+epoch: 41	train acc on train images is 48.79921775095908
+	test acc on test images is 69.71
+
+epoch: 42	train acc on train images is 48.583584758631716
+	test acc on test images is 71.88
+
+epoch: 43	train acc on train images is 48.999550431585675
+	test acc on test images is 71.73
+
+epoch: 44	train acc on train images is 48.63222806106138
+	test acc on test images is 67.11
+
+epoch: 45	train acc on train images is 48.37828184942455
+	test acc on test images is 75.64
+
+epoch: 46	train acc on train images is 48.49914082480819
+	test acc on test images is 72.37
+
+epoch: 47	train acc on train images is 48.82400395620205
+	test acc on test images is 72.03
+
+epoch: 48	train acc on train images is 48.72227661445013
+	test acc on test images is 70.6
+
+epoch: 49	train acc on train images is 49.07810002397698
+	test acc on test images is 68.83
+
+epoch: 50	train acc on train images is 48.670681146099746
+	test acc on test images is 66.16
+
+epoch: 51	train acc on train images is 48.83112711796675
+	test acc on test images is 73.04
+
+epoch: 52	train acc on train images is 48.91909766624041
+	test acc on test images is 70.73
+
+epoch: 53	train acc on train images is 49.029316855818415
+	test acc on test images is 69.71
+
+epoch: 54	train acc on train images is 49.12910106297954
+	test acc on test images is 71.39
+
+epoch: 55	train acc on train images is 48.731377877237854
+	test acc on test images is 65.93
+
+epoch: 56	train acc on train images is 48.93711037404092
+	test acc on test images is 69.96
+
+epoch: 57	train acc on train images is 49.02851762308184
+	test acc on test images is 70.86
+
+epoch: 58	train acc on train images is 48.9061101342711
+	test acc on test images is 65.45
+
+epoch: 59	train acc on train images is 48.9623261668798
+	test acc on test images is 69.09
+
+epoch: 60	train acc on train images is 50.96405950287724
+	test acc on test images is 81.72
+
+epoch: 61	train acc on train images is 51.6229120044757
+	test acc on test images is 82.79
+
+epoch: 62	train acc on train images is 51.9150365648977
+	test acc on test images is 83.02
+
+epoch: 63	train acc on train images is 51.65691935741688
+	test acc on test images is 82.86
+
+epoch: 64	train acc on train images is 52.099604379795394
+	test acc on test images is 82.94
+
+epoch: 65	train acc on train images is 52.41939737851662
+	test acc on test images is 82.75
+
+epoch: 66	train acc on train images is 52.45831002237852
+	test acc on test images is 82.41
+
+epoch: 67	train acc on train images is 52.953174952046034
+	test acc on test images is 82.48
+
+epoch: 68	train acc on train images is 52.72212176310742
+	test acc on test images is 83.92
+
+epoch: 69	train acc on train images is 52.34536844629156
+	test acc on test images is 83.92
+
+epoch: 70	train acc on train images is 52.47848565377238
+	test acc on test images is 84.31
+
+epoch: 71	train acc on train images is 53.04833359974425
+	test acc on test images is 82.68
+
+epoch: 72	train acc on train images is 52.640230378836314
+	test acc on test images is 82.69
+
+epoch: 73	train acc on train images is 52.81693074648338
+	test acc on test images is 83.36
+
+epoch: 74	train acc on train images is 53.20721607257033
+	test acc on test images is 83.32
+
+epoch: 75	train acc on train images is 53.37633371962916
+	test acc on test images is 84.12
+
+epoch: 76	train acc on train images is 52.80933304028133
+	test acc on test images is 84.0
+
+epoch: 77	train acc on train images is 53.256229020140665
+	test acc on test images is 82.81
+
+epoch: 78	train acc on train images is 53.20407908407928
+	test acc on test images is 83.27
+
+epoch: 79	train acc on train images is 53.44205063139386
+	test acc on test images is 83.46
+
+epoch: 80	train acc on train images is 53.57256034207161
+	test acc on test images is 84.7
+
+epoch: 81	train acc on train images is 53.336741727941174
+	test acc on test images is 83.84
+
+epoch: 82	train acc on train images is 53.74043917838875
+	test acc on test images is 83.12
+
+epoch: 83	train acc on train images is 53.79249920076726
+	test acc on test images is 84.76
+
+epoch: 84	train acc on train images is 53.38123901054987
+	test acc on test images is 83.53
+
+epoch: 85	train acc on train images is 53.45193614130435
+	test acc on test images is 83.65
+
+epoch: 86	train acc on train images is 53.6651814258312
+	test acc on test images is 81.54
+
+epoch: 87	train acc on train images is 53.98666779891305
+	test acc on test images is 80.81
+
+epoch: 88	train acc on train images is 53.77474624360614
+	test acc on test images is 81.96
+
+epoch: 89	train acc on train images is 53.24865628996164
+	test acc on test images is 83.97
+
+epoch: 90	train acc on train images is 53.73345088714834
+	test acc on test images is 83.77
+
+epoch: 91	train acc on train images is 53.697150735294116
+	test acc on test images is 84.1
+
+epoch: 92	train acc on train images is 53.78932225063939
+	test acc on test images is 81.63
+
+epoch: 93	train acc on train images is 53.85749180786445
+	test acc on test images is 79.0
+
+epoch: 94	train acc on train images is 53.530650575447574
+	test acc on test images is 82.79
+
+epoch: 95	train acc on train images is 53.96223125799233
+	test acc on test images is 83.87
+
+epoch: 96	train acc on train images is 53.79831361892583
+	test acc on test images is 84.88
+
+epoch: 97	train acc on train images is 53.457011269181585
+	test acc on test images is 81.88
+
+epoch: 98	train acc on train images is 54.065497122762146
+	test acc on test images is 82.4
+
+epoch: 99	train acc on train images is 53.834344029731454
+	test acc on test images is 84.25
+
+
+final test acc on test images is 84.25
+max test acc on test images is 84.88
+
+epoch: 0	train acc on train images is 18.319805486732736
+	test acc on test images is 18.67
+
+epoch: 1	train acc on train images is 26.1597366528133
+	test acc on test images is 27.65
+
+epoch: 2	train acc on train images is 30.156524736253196
+	test acc on test images is 30.12
+
+epoch: 3	train acc on train images is 32.870614210358056
+	test acc on test images is 35.38
+
+epoch: 4	train acc on train images is 35.96838535006394
+	test acc on test images is 42.52
+
+epoch: 5	train acc on train images is 38.16474684303069
+	test acc on test images is 40.73
+
+epoch: 6	train acc on train images is 39.240953684462916
+	test acc on test images is 43.19
+
+epoch: 7	train acc on train images is 40.66078314817775
+	test acc on test images is 52.01
+
+epoch: 8	train acc on train images is 41.45671155690537
+	test acc on test images is 47.56
+
+epoch: 9	train acc on train images is 42.18813439098466
+	test acc on test images is 50.83
+
+epoch: 10	train acc on train images is 42.71975403612532
+	test acc on test images is 43.27
+
+epoch: 11	train acc on train images is 43.484020340473144
+	test acc on test images is 48.04
+
+epoch: 12	train acc on train images is 43.93759490888747
+	test acc on test images is 35.64
+
+epoch: 13	train acc on train images is 44.39553029092072
+	test acc on test images is 60.7
+
+epoch: 14	train acc on train images is 45.096167679028135
+	test acc on test images is 64.73
+
+epoch: 15	train acc on train images is 45.15902733375959
+	test acc on test images is 57.03
+
+epoch: 16	train acc on train images is 45.59906489769821
+	test acc on test images is 63.31
+
+epoch: 17	train acc on train images is 46.02452645460358
+	test acc on test images is 64.58
+
+epoch: 18	train acc on train images is 46.270600223785166
+	test acc on test images is 65.71
+
+epoch: 19	train acc on train images is 46.08990868765984
+	test acc on test images is 61.34
+
+epoch: 20	train acc on train images is 46.623011908567776
+	test acc on test images is 59.75
+
+epoch: 21	train acc on train images is 46.37251238810742
+	test acc on test images is 63.2
+
+epoch: 22	train acc on train images is 46.91997682225064
+	test acc on test images is 67.6
+
+epoch: 23	train acc on train images is 47.03730418797954
+	test acc on test images is 67.68
+
+epoch: 24	train acc on train images is 46.920276534526856
+	test acc on test images is 62.29
+
+epoch: 25	train acc on train images is 47.05373341592072
+	test acc on test images is 69.46
+
+epoch: 26	train acc on train images is 46.90224884111253
+	test acc on test images is 70.04
+
+epoch: 27	train acc on train images is 47.13304727461637
+	test acc on test images is 62.81
+
+epoch: 28	train acc on train images is 47.164432145140665
+	test acc on test images is 61.19
+
+epoch: 29	train acc on train images is 47.74039422154731
+	test acc on test images is 67.7
+
+epoch: 30	train acc on train images is 47.73050871163683
+	test acc on test images is 70.78
+
+epoch: 31	train acc on train images is 47.614769820971865
+	test acc on test images is 61.57
+
+epoch: 32	train acc on train images is 47.704398777173914
+	test acc on test images is 69.93
+
+epoch: 33	train acc on train images is 47.589404171994886
+	test acc on test images is 58.56
+
+epoch: 34	train acc on train images is 47.978605538682864
+	test acc on test images is 73.64
+
+epoch: 35	train acc on train images is 47.664866727941174
+	test acc on test images is 69.42
+
+epoch: 36	train acc on train images is 47.819458320012785
+	test acc on test images is 70.51
+
+epoch: 37	train acc on train images is 48.064098465473144
+	test acc on test images is 69.56
+
+epoch: 38	train acc on train images is 47.85548373561381
+	test acc on test images is 69.39
+
+epoch: 39	train acc on train images is 48.156095148657286
+	test acc on test images is 71.86
+
+epoch: 40	train acc on train images is 48.39570512308184
+	test acc on test images is 68.59
+
+epoch: 41	train acc on train images is 48.257068214514064
+	test acc on test images is 68.15
+
+epoch: 42	train acc on train images is 48.41380274936061
+	test acc on test images is 72.15
+
+epoch: 43	train acc on train images is 48.39247322570333
+	test acc on test images is 74.75
+
+epoch: 44	train acc on train images is 48.51425631393862
+	test acc on test images is 64.47
+
+epoch: 45	train acc on train images is 48.271034806585675
+	test acc on test images is 58.5
+
+epoch: 46	train acc on train images is 48.461052389705884
+	test acc on test images is 73.71
+
+epoch: 47	train acc on train images is 48.385554867327365
+	test acc on test images is 73.1
+
+epoch: 48	train acc on train images is 48.3758391943734
+	test acc on test images is 71.21
+
+epoch: 49	train acc on train images is 48.39786305147059
+	test acc on test images is 69.89
+
+epoch: 50	train acc on train images is 48.78953704443734
+	test acc on test images is 71.91
+
+epoch: 51	train acc on train images is 48.36513946611253
+	test acc on test images is 67.51
+
+epoch: 52	train acc on train images is 48.898122802109974
+	test acc on test images is 75.86
+
+epoch: 53	train acc on train images is 48.89510070332481
+	test acc on test images is 66.69
+
+epoch: 54	train acc on train images is 48.78871283567775
+	test acc on test images is 70.06
+
+epoch: 55	train acc on train images is 48.910930506713555
+	test acc on test images is 64.13
+
+epoch: 56	train acc on train images is 48.393462276214834
+	test acc on test images is 66.12
+
+epoch: 57	train acc on train images is 48.90591032608695
+	test acc on test images is 70.8
+
+epoch: 58	train acc on train images is 48.91333819533248
+	test acc on test images is 71.37
+
+epoch: 59	train acc on train images is 48.95230079124041
+	test acc on test images is 74.01
+
+epoch: 60	train acc on train images is 51.33310521898977
+	test acc on test images is 81.84
+
+epoch: 61	train acc on train images is 51.529411764705884
+	test acc on test images is 82.02
+
+epoch: 62	train acc on train images is 52.407873441496164
+	test acc on test images is 83.0
+
+epoch: 63	train acc on train images is 52.63195332480819
+	test acc on test images is 83.09
+
+epoch: 64	train acc on train images is 52.59867527173913
+	test acc on test images is 83.3
+
+epoch: 65	train acc on train images is 52.35930506713555
+	test acc on test images is 83.09
+
+epoch: 66	train acc on train images is 52.59983915441177
+	test acc on test images is 83.36
+
+epoch: 67	train acc on train images is 52.48038882672634
+	test acc on test images is 83.24
+
+epoch: 68	train acc on train images is 52.690607017263424
+	test acc on test images is 83.79
+
+epoch: 69	train acc on train images is 52.785595828005114
+	test acc on test images is 83.03
+
+epoch: 70	train acc on train images is 52.87156329923274
+	test acc on test images is 82.69
+
+epoch: 71	train acc on train images is 53.31736532928389
+	test acc on test images is 83.24
+
+epoch: 72	train acc on train images is 52.88846207640665
+	test acc on test images is 83.64
+
+epoch: 73	train acc on train images is 52.675226782289
+	test acc on test images is 84.05
+
+epoch: 74	train acc on train images is 52.73780670556266
+	test acc on test images is 83.71
+
+epoch: 75	train acc on train images is 53.636873601342714
+	test acc on test images is 83.07
+
+epoch: 76	train acc on train images is 53.25760769661125
+	test acc on test images is 83.86
+
+epoch: 77	train acc on train images is 53.27049032928389
+	test acc on test images is 84.62
+
+epoch: 78	train acc on train images is 52.90001598465473
+	test acc on test images is 81.98
+
+epoch: 79	train acc on train images is 53.03177449648338
+	test acc on test images is 83.88
+
+epoch: 80	train acc on train images is 53.32623681265984
+	test acc on test images is 84.14
+
+epoch: 81	train acc on train images is 53.4536894581202
+	test acc on test images is 84.71
+
+epoch: 82	train acc on train images is 53.51098945012788
+	test acc on test images is 83.69
+
+epoch: 83	train acc on train images is 53.51413143382353
+	test acc on test images is 84.07
+
+epoch: 84	train acc on train images is 53.450382632672635
+	test acc on test images is 82.58
+
+epoch: 85	train acc on train images is 53.56683583759591
+	test acc on test images is 83.85
+
+epoch: 86	train acc on train images is 53.44738550991048
+	test acc on test images is 84.26
+
+epoch: 87	train acc on train images is 53.58066755914322
+	test acc on test images is 82.96
+
+epoch: 88	train acc on train images is 53.821421435421996
+	test acc on test images is 84.41
+
+epoch: 89	train acc on train images is 53.449613371163686
+	test acc on test images is 82.9
+
+epoch: 90	train acc on train images is 53.60603820332481
+	test acc on test images is 85.15
+
+epoch: 91	train acc on train images is 53.759715672953966
+	test acc on test images is 84.94
+
+epoch: 92	train acc on train images is 53.90593030690537
+	test acc on test images is 83.75
+
+epoch: 93	train acc on train images is 53.22639765824808
+	test acc on test images is 82.39
+
+epoch: 94	train acc on train images is 53.79828864290281
+	test acc on test images is 84.55
+
+epoch: 95	train acc on train images is 53.57010270140665
+	test acc on test images is 83.77
+
+epoch: 96	train acc on train images is 53.68183543797954
+	test acc on test images is 83.8
+
+epoch: 97	train acc on train images is 54.041265385230176
+	test acc on test images is 84.91
+
+epoch: 98	train acc on train images is 53.59271099744245
+	test acc on test images is 84.31
+
+epoch: 99	train acc on train images is 53.50182324968031
+	test acc on test images is 83.78
+
+
+final test acc on test images is 83.78
+max test acc on test images is 85.15
