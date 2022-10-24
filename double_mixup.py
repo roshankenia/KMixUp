@@ -64,6 +64,8 @@ def accuracy(logit, target, topk=(1,)):
     return res
 
 # Train the Model
+
+
 def mixup_data(x, y, alpha=1.0, use_cuda=True):
     '''Returns mixed inputs, pairs of targets, and lambda'''
     if alpha > 0:
@@ -74,12 +76,16 @@ def mixup_data(x, y, alpha=1.0, use_cuda=True):
     batch_size = x.size()[0]
     if use_cuda:
         index = torch.randperm(batch_size).cuda()
+        index_2 = torch.randperm(batch_size).cuda()
     else:
         index = torch.randperm(batch_size)
+        index_2 = torch.randperm(batch_size).cuda()
 
-    mixed_x = lam * x + (1 - lam) * x[index, :]
-    y_a, y_b = y, y[index]
-    return mixed_x, y_a, y_b, lam
+    half_lam = (1-lam)/2
+
+    mixed_x = lam * x + half_lam * x[index, :] + half_lam * x[index_2, :]
+    y_a, y_b, y_c = y, y[index], y[index_2]
+    return mixed_x, y_a, y_b, y_c, lam, half_lam
 
 
 def train(epoch, train_loader, model, optimizer):
@@ -94,9 +100,10 @@ def train(epoch, train_loader, model, optimizer):
         labels = Variable(labels).cuda()
 
         # mixup data
-        inputs, targets_a, targets_b, lam = mixup_data(images, labels)
-        inputs, targets_a, targets_b = map(
-            Variable, (inputs, targets_a, targets_b))
+        inputs, targets_a, targets_b, targets_c, lam, half_lam = mixup_data(
+            images, labels)
+        inputs, targets_a, targets_b, targets_c = map(
+            Variable, (inputs, targets_a, targets_b, targets_c))
 
         # Forward + Backward + Optimize
         # print(targets_a.shape)
@@ -106,15 +113,16 @@ def train(epoch, train_loader, model, optimizer):
 
         prec_a, _ = accuracy(logits, targets_a, topk=(1, 5))
         prec_b, _ = accuracy(logits, targets_b, topk=(1, 5))
+        prec_c, _ = accuracy(logits, targets_c, topk=(1, 5))
 
-        prec = lam * prec_a + (1-lam)*prec_b
+        prec = lam * prec_a + half_lam*prec_b + half_lam*prec_c
         # prec = 0.0
         train_total += 1
         train_correct += prec
 
         # mixup loss
-        loss = lam * F.cross_entropy(logits, targets_a, reduce=True) + (
-            1 - lam) * F.cross_entropy(logits, targets_b, reduce=True)
+        loss = lam * F.cross_entropy(logits, targets_a, reduce=True) + half_lam * F.cross_entropy(
+            logits, targets_b, reduce=True) + half_lam * F.cross_entropy(logits, targets_c, reduce=True)
 
         optimizer.zero_grad()
         loss.backward()
@@ -200,7 +208,8 @@ epoch = 0
 train_acc = 0
 
 # training
-file = open('./checkpoint/%s_%s' % (args.dataset, args.noise_type)+'_regular_mixup.txt', "w")
+file = open('./checkpoint/%s_%s' %
+            (args.dataset, args.noise_type)+'_two_image_mixup.txt', "w")
 max_test = 0
 
 noise_prior_cur = noise_prior
