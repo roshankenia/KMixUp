@@ -193,7 +193,7 @@ torch.cuda.manual_seed(args.seed)
 
 # Hyper Parameters
 batch_size = 128
-learning_rate = args.lr
+learning_rate = args.lr/args.k
 noise_type_map = {'clean': 'clean_label', 'worst': 'worse_label', 'aggre': 'aggre_label', 'rand1': 'random_label1',
                   'rand2': 'random_label2', 'rand3': 'random_label3', 'clean100': 'clean_label', 'noisy100': 'noisy_label'}
 args.noise_type = noise_type_map[args.noise_type]
@@ -240,7 +240,7 @@ train_acc = 0
 
 # training
 file = open('./checkpoint/%s_%s_%d' %
-            (args.dataset, args.noise_type, args.k)+'_k_mixup.txt', "w")
+            (args.dataset, args.noise_type, args.k)+'_k_mixup_new_lr.txt', "w")
 max_test = 0
 
 noise_prior_cur = noise_prior
