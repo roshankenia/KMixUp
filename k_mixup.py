@@ -133,14 +133,10 @@ def train(epoch, train_loader, model, optimizer):
         labels = Variable(labels).cuda()
 
         # mixup data
-        inputs, targets_a, targets_b, lam = k_mixup(images, labels, args.k)
+        inputs, targets_a, targets_b, lam = mixup_data(images, labels)
         inputs, targets_a, targets_b = map(
             Variable, (inputs, targets_a, targets_b))
-
         # Forward + Backward + Optimize
-        # print(targets_a.shape)
-        # print(targets_b.shape)
-        # print(inputs.shape)
         logits = model(inputs)
 
         prec_a, _ = accuracy(logits, targets_a, topk=(1, 5))
@@ -150,7 +146,6 @@ def train(epoch, train_loader, model, optimizer):
         # prec = 0.0
         train_total += 1
         train_correct += prec
-
         # mixup loss
         loss = lam * F.cross_entropy(logits, targets_a, reduce=True) + (
             1 - lam) * F.cross_entropy(logits, targets_b, reduce=True)
@@ -164,7 +159,7 @@ def train(epoch, train_loader, model, optimizer):
 
     train_acc = float(train_correct)/float(train_total)
     return train_acc
-# test
+
 # Evaluate the Model
 
 
@@ -209,7 +204,6 @@ if args.noise_path is None:
 
 train_dataset, test_dataset, num_classes, num_training_samples = input_dataset(
     args.dataset, args.noise_type, args.noise_path, args.is_human)
-
 noise_prior = train_dataset.noise_prior
 noise_or_not = train_dataset.noise_or_not
 print('train_labels:', len(train_dataset.train_labels),
@@ -249,12 +243,13 @@ for epoch in range(args.n_epoch):
     print(f'epoch {epoch}')
     adjust_learning_rate(optimizer, epoch, alpha_plan)
     model.train()
-    # train_acc = smart_train(epoch, train_loader, model, optimizer)
     train_acc = train(epoch, train_loader, model, optimizer)
     # evaluate models
     test_acc = evaluate(test_loader=test_loader, model=model)
+
     if test_acc > max_test:
         max_test = test_acc
+
     # save results
     print('train acc on train images is ', train_acc)
     print('test acc on test images is ', test_acc)
