@@ -194,6 +194,7 @@ torch.cuda.manual_seed(args.seed)
 # Hyper Parameters
 batch_size = 128
 learning_rate = args.lr/args.k
+print('Learning rate:', learning_rate)
 noise_type_map = {'clean': 'clean_label', 'worst': 'worse_label', 'aggre': 'aggre_label', 'rand1': 'random_label1',
                   'rand2': 'random_label2', 'rand3': 'random_label3', 'clean100': 'clean_label', 'noisy100': 'noisy_label'}
 args.noise_type = noise_type_map[args.noise_type]
