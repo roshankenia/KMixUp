@@ -232,7 +232,7 @@ test_loader = torch.utils.data.DataLoader(dataset=test_dataset,
                                           batch_size=64,
                                           num_workers=args.num_workers,
                                           shuffle=False)
-alpha_plan = [0.1] * 60 + [0.01] * 40
+alpha_plan = [learning_rate] * 60 + [learning_rate/10] * 40
 model.cuda()
 
 
