@@ -70,6 +70,7 @@ def count_difference(logits, indexes, noise_or_not):
         # calculate difference between highest and second highest prediction
         diff = max(logit) - sorted(logit, reverse=True)[1]
         # place count in our array
+        print(diff)
         diff = math.floor(diff * 10)
         diff_counts[diff] += 1
 
