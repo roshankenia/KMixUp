@@ -70,10 +70,11 @@ def count_difference(logits, indexes, noise_or_not):
         # calculate difference between highest and second highest prediction
         diff = logit[-1] - logit[-2]
         # place count in our array
-        diff = math.floor(diff * 10)
-        diff_counts[diff] += 1
+        diff_ind = math.floor(diff * 10)
+        print(diff_ind, diff, logit.tolist())
+        diff_counts[diff_ind] += 1
 
-        noise_counts[diff] += noise_or_not[indexes[i]]
+        noise_counts[diff_ind] += noise_or_not[indexes[i]]
     return diff_counts, noise_counts
 
 # Train the Model
