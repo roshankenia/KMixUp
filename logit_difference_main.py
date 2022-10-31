@@ -71,7 +71,8 @@ def count_difference(logits, indexes, noise_or_not):
         diff = logit[-1] - logit[-2]
         # place count in our array
         diff_ind = math.floor(diff * 10)
-        print(diff_ind, diff, logit)
+        if diff_ind == 10:
+            diff_ind = 9
         diff_counts[diff_ind] += 1
 
         noise_counts[diff_ind] += noise_or_not[indexes[i]]
