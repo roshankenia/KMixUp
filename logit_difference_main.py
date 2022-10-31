@@ -8,6 +8,8 @@ from models import *
 import argparse
 import sys
 import time
+import math
+import numpy as np
 # ensure we are running on the correct gpu
 os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
 os.environ["CUDA_VISIBLE_DEVICES"] = "6"  # (xxxx is your specific GPU ID)
@@ -59,12 +61,30 @@ def accuracy(logit, target, topk=(1,)):
         res.append(correct_k.mul_(100.0 / batch_size))
     return res
 
+
+def count_difference(logits, indexes, noise_or_not):
+    diff_counts = np.zeros(10)
+    noise_counts = np.zeros(10)
+    for i in range(len(logits)):
+        logit = logits[i]
+        # calculate difference between highest and second highest prediction
+        diff = max(logit) - sorted(logit, reverse=True)[1]
+        # place count in our array
+        diff = math.floor(diff * 10)
+        diff_counts[diff] += 1
+
+        noise_counts[diff] += noise_or_not[indexes[i]]
+    return diff_counts, noise_counts
+
 # Train the Model
 
 
-def train(epoch, train_loader, model, optimizer):
+def train(epoch, train_loader, model, optimizer, noise_or_not):
     train_total = 0
     train_correct = 0
+
+    diff_total = np.zeros(10)
+    noise_total = np.zeros(10)
 
     for i, (images, labels, indexes) in enumerate(train_loader):
         ind = indexes.cpu().numpy().transpose()
@@ -75,6 +95,12 @@ def train(epoch, train_loader, model, optimizer):
 
         # Forward + Backward + Optimize
         logits = model(images)
+
+        # calculate differences
+        diff_counts, noise_counts = count_difference(
+            logits, indexes, noise_or_not)
+        diff_total = np.add(diff_total, diff_counts)
+        noise_total = np.add(noise_total, noise_counts)
 
         prec, _ = accuracy(logits, labels, topk=(1, 5))
         # prec = 0.0
@@ -90,7 +116,7 @@ def train(epoch, train_loader, model, optimizer):
                   % (epoch+1, args.n_epoch, i+1, len(train_dataset)//batch_size, prec, loss.data))
 
     train_acc = float(train_correct)/float(train_total)
-    return train_acc
+    return train_acc, diff_total, noise_total
 # test
 # Evaluate the Model
 
@@ -167,7 +193,7 @@ train_acc = 0
 
 # training
 # training
-file = open('./checkpoint/%s_%s_%d' %
+file = open('./checkpoint/%s_%s' %
             (args.dataset, args.noise_type)+'_main.txt', "w")
 max_test = 0
 
@@ -177,7 +203,8 @@ for epoch in range(args.n_epoch):
     print(f'epoch {epoch}')
     adjust_learning_rate(optimizer, epoch, alpha_plan)
     model.train()
-    train_acc = train(epoch, train_loader, model, optimizer)
+    train_acc, diff_total, noise_total = train(
+        epoch, train_loader, model, optimizer, noise_or_not)
     # evaluate models
     test_acc = evaluate(test_loader=test_loader, model=model)
 
@@ -187,9 +214,13 @@ for epoch in range(args.n_epoch):
     # save results
     print('train acc on train images is ', train_acc)
     print('test acc on test images is ', test_acc)
+    print("difference total is ", str(diff_total))
+    print("noise total is ", str(noise_total))
     file.write("\nepoch: "+str(epoch))
     file.write("\ttrain acc on train images is "+str(train_acc)+"\n")
     file.write("\ttest acc on test images is "+str(test_acc)+"\n")
+    file.write("\tdifference total is "+str(diff_total)+"\n")
+    file.write("\nnoise total is "+str(noise_total)+"\n")
     file.flush()
 file.write("\n\nfinal test acc on test images is "+str(test_acc)+"\n")
 file.write("max test acc on test images is "+str(max_test)+"\n")
