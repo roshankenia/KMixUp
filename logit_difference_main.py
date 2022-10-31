@@ -67,7 +67,7 @@ def count_difference(logits, indexes, noise_or_not):
     noise_counts = np.zeros(10)
     for i in range(len(logits)):
         # logit = logits[i]
-        logit = sorted(logits[i])
+        logit = sorted(F.softmax(logits[i]))
         # calculate difference between highest and second highest prediction
         # diff = max(logit) - sorted(logit, reverse=True)[1]
         diff = logit[-1] - logit[-2]
