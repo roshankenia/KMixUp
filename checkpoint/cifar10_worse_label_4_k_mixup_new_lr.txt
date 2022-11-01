@@ -253,3 +253,53 @@ epoch: 83	train acc on train images is 49.887088395140665
 
 epoch: 84	train acc on train images is 49.36852121962916
 	test acc on test images is 80.29
+
+epoch: 85	train acc on train images is 49.32634171195652
+	test acc on test images is 78.77
+
+epoch: 86	train acc on train images is 49.812614889705884
+	test acc on test images is 79.49
+
+epoch: 87	train acc on train images is 49.56857916400256
+	test acc on test images is 78.73
+
+epoch: 88	train acc on train images is 50.10879555626598
+	test acc on test images is 79.4
+
+epoch: 89	train acc on train images is 50.126313738810744
+	test acc on test images is 77.74
+
+epoch: 90	train acc on train images is 49.59146219629156
+	test acc on test images is 81.01
+
+epoch: 91	train acc on train images is 48.5613860693734
+	test acc on test images is 77.03
+
+epoch: 92	train acc on train images is 49.816131513746804
+	test acc on test images is 77.72
+
+epoch: 93	train acc on train images is 50.92552149936061
+	test acc on test images is 78.02
+
+epoch: 94	train acc on train images is 50.323109814578004
+	test acc on test images is 78.61
+
+epoch: 95	train acc on train images is 50.21991887787724
+	test acc on test images is 76.9
+
+epoch: 96	train acc on train images is 50.31415341272378
+	test acc on test images is 74.44
+
+epoch: 97	train acc on train images is 50.684502877237854
+	test acc on test images is 76.36
+
+epoch: 98	train acc on train images is 50.71838535006394
+	test acc on test images is 79.56
+
+epoch: 99	train acc on train images is 51.03535106297954
+	test acc on test images is 75.32
+
+
+final test acc on test images is 75.32
+max test acc on test images is 85.64
+Total runtime of the program is: 03:14:21
