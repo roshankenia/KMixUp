@@ -196,7 +196,7 @@ train_acc = 0
 # training
 # training
 file = open('./checkpoint/%s_%s' %
-            (args.dataset, args.noise_type)+'_main.txt', "w")
+            (args.dataset, args.noise_type)+'_log_diff.txt', "w")
 max_test = 0
 
 noise_prior_cur = noise_prior
