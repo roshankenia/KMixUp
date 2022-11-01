@@ -1,0 +1,606 @@
+
+epoch: 0	train acc on train images is 22.49560421994885
+	test acc on test images is 33.77
+	difference total is [39961.  6266.  2024.   860.   403.   197.    46.    46.    53.   144.]
+
+noise total is [3749.  483.  144.   59.   26.   21.    4.    6.    4.    9.]
+
+epoch: 1	train acc on train images is 35.70332480818414
+	test acc on test images is 41.46
+	difference total is [2.5842e+04 1.1030e+04 5.6570e+03 3.3380e+03 1.9830e+03 1.1560e+03
+ 5.9800e+02 2.8300e+02 9.9000e+01 1.4000e+01]
+
+noise total is [2582. 1006.  439.  221.  131.   75.   34.   14.    3.    0.]
+
+epoch: 2	train acc on train images is 45.10549872122762
+	test acc on test images is 49.48
+	difference total is [18574. 10020.  6206.  4362.  3302.  2601.  2062.  1578.   949.   346.]
+
+noise total is [1992.  959.  525.  359.  256.  168.  108.   90.   39.    9.]
+
+epoch: 3	train acc on train images is 53.86149296675192
+	test acc on test images is 58.91
+	difference total is [13368.  8590.  5997.  4468.  3666.  3261.  2949.  2797.  2908.  1996.]
+
+noise total is [1506.  964.  580.  375.  312.  241.  183.  134.  133.   77.]
+
+epoch: 4	train acc on train images is 60.656969309462916
+	test acc on test images is 62.06
+	difference total is [9615. 7084. 5513. 4374. 3818. 3503. 3493. 3554. 4094. 4952.]
+
+noise total is [1208.  808.  601.  419.  351.  263.  261.  232.  200.  162.]
+
+epoch: 5	train acc on train images is 66.07336956521739
+	test acc on test images is 68.31
+	difference total is [7240. 5688. 4808. 4134. 3765. 3637. 3714. 4050. 5146. 7818.]
+
+noise total is [966. 736. 578. 445. 381. 325. 294. 265. 274. 241.]
+
+epoch: 6	train acc on train images is 70.13147378516624
+	test acc on test images is 71.49
+	difference total is [ 6000.  4750.  4000.  3715.  3516.  3607.  3867.  4459.  5837. 10249.]
+
+noise total is [837. 646. 510. 437. 418. 360. 341. 319. 324. 313.]
+
+epoch: 7	train acc on train images is 72.84406969309462
+	test acc on test images is 73.49
+	difference total is [ 5109.  4113.  3668.  3426.  3293.  3436.  3645.  4550.  6365. 12395.]
+
+noise total is [790. 599. 490. 426. 387. 364. 352. 327. 364. 406.]
+
+epoch: 8	train acc on train images is 74.70748081841433
+	test acc on test images is 70.2
+	difference total is [ 4593.  3803.  3368.  3163.  3161.  3224.  3612.  4527.  6762. 13787.]
+
+noise total is [730. 570. 466. 430. 373. 375. 333. 378. 414. 436.]
+
+epoch: 9	train acc on train images is 75.73809143222506
+	test acc on test images is 77.34
+	difference total is [ 4153.  3544.  3145.  3127.  2961.  3172.  3718.  4712.  6841. 14627.]
+
+noise total is [650. 542. 486. 433. 385. 371. 352. 384. 449. 453.]
+
+epoch: 10	train acc on train images is 76.37507992327366
+	test acc on test images is 79.52
+	difference total is [ 4113.  3534.  3077.  2855.  2953.  3127.  3606.  4527.  6882. 15326.]
+
+noise total is [661. 540. 465. 392. 385. 380. 381. 397. 460. 444.]
+
+epoch: 11	train acc on train images is 77.22706202046035
+	test acc on test images is 77.92
+	difference total is [ 3910.  3284.  3054.  2828.  2866.  3050.  3459.  4426.  6948. 16175.]
+
+noise total is [708. 517. 446. 414. 376. 362. 374. 406. 433. 469.]
+
+epoch: 12	train acc on train images is 77.83447890025576
+	test acc on test images is 77.24
+	difference total is [ 3705.  3253.  2909.  2705.  2768.  2974.  3460.  4586.  7195. 16445.]
+
+noise total is [648. 540. 450. 389. 391. 351. 354. 421. 478. 483.]
+
+epoch: 13	train acc on train images is 78.45907928388746
+	test acc on test images is 79.09
+	difference total is [ 3552.  3094.  2832.  2674.  2734.  2930.  3413.  4510.  7187. 17074.]
+
+noise total is [655. 527. 451. 398. 351. 354. 345. 401. 486. 537.]
+
+epoch: 14	train acc on train images is 78.45028772378517
+	test acc on test images is 75.91
+	difference total is [ 3581.  3043.  2742.  2693.  2637.  2935.  3457.  4425.  7240. 17247.]
+
+noise total is [630. 500. 467. 422. 365. 338. 386. 396. 501. 500.]
+
+epoch: 15	train acc on train images is 78.8914641943734
+	test acc on test images is 78.47
+	difference total is [ 3468.  2974.  2696.  2650.  2661.  2826.  3327.  4412.  7040. 17946.]
+
+noise total is [634. 527. 438. 413. 385. 360. 355. 385. 502. 506.]
+
+epoch: 16	train acc on train images is 79.48209718670077
+	test acc on test images is 81.77
+	difference total is [ 3336.  2843.  2610.  2646.  2574.  2851.  3340.  4439.  7277. 18084.]
+
+noise total is [577. 523. 439. 434. 373. 342. 375. 417. 478. 547.]
+
+epoch: 17	train acc on train images is 79.42934782608695
+	test acc on test images is 80.75
+	difference total is [ 3388.  2823.  2608.  2558.  2597.  2841.  3240.  4319.  7226. 18400.]
+
+noise total is [593. 476. 464. 377. 390. 389. 353. 401. 523. 539.]
+
+epoch: 18	train acc on train images is 79.8229699488491
+	test acc on test images is 77.59
+	difference total is [ 3275.  2800.  2542.  2521.  2509.  2806.  3206.  4403.  7253. 18685.]
+
+noise total is [630. 493. 410. 423. 350. 369. 334. 439. 502. 555.]
+
+epoch: 19	train acc on train images is 80.03236892583121
+	test acc on test images is 77.73
+	difference total is [ 3237.  2736.  2536.  2540.  2528.  2775.  3257.  4253.  7155. 18983.]
+
+noise total is [647. 495. 429. 407. 342. 381. 388. 388. 485. 543.]
+
+epoch: 20	train acc on train images is 80.47674232736573
+	test acc on test images is 77.1
+	difference total is [ 3120.  2678.  2518.  2394.  2515.  2612.  3338.  4347.  7209. 19269.]
+
+noise total is [612. 485. 423. 378. 397. 364. 360. 407. 473. 606.]
+
+epoch: 21	train acc on train images is 80.51990089514067
+	test acc on test images is 80.49
+	difference total is [ 3025.  2626.  2387.  2387.  2509.  2816.  3225.  4355.  7324. 19346.]
+
+noise total is [576. 508. 393. 381. 355. 390. 373. 425. 532. 572.]
+
+epoch: 22	train acc on train images is 80.60861572890026
+	test acc on test images is 80.29
+	difference total is [ 3018.  2713.  2413.  2452.  2449.  2818.  3210.  4242.  7234. 19451.]
+
+noise total is [558. 527. 415. 377. 363. 386. 392. 400. 522. 565.]
+
+epoch: 23	train acc on train images is 80.73609335038363
+	test acc on test images is 76.21
+	difference total is [ 2967.  2709.  2388.  2318.  2391.  2735.  3330.  4421.  7151. 19590.]
+
+noise total is [571. 489. 421. 371. 373. 369. 398. 422. 510. 581.]
+
+epoch: 24	train acc on train images is 81.0406010230179
+	test acc on test images is 82.2
+	difference total is [ 2969.  2617.  2340.  2351.  2481.  2723.  3241.  4193.  7184. 19901.]
+
+noise total is [591. 459. 408. 374. 352. 381. 407. 422. 510. 601.]
+
+epoch: 25	train acc on train images is 80.86397058823529
+	test acc on test images is 81.41
+	difference total is [ 3034.  2612.  2325.  2348.  2431.  2664.  3113.  4315.  7474. 19684.]
+
+noise total is [602. 495. 413. 367. 347. 391. 385. 450. 499. 556.]
+
+epoch: 26	train acc on train images is 81.3003516624041
+	test acc on test images is 76.64
+	difference total is [ 3008.  2498.  2299.  2285.  2452.  2592.  3109.  4290.  7341. 20126.]
+
+noise total is [618. 498. 399. 364. 375. 339. 376. 403. 522. 611.]
+
+epoch: 27	train acc on train images is 81.2060421994885
+	test acc on test images is 76.92
+	difference total is [ 2913.  2481.  2334.  2393.  2387.  2729.  3200.  4352.  7134. 20077.]
+
+noise total is [576. 422. 413. 413. 374. 390. 389. 420. 521. 587.]
+
+epoch: 28	train acc on train images is 81.26358695652173
+	test acc on test images is 82.28
+	difference total is [ 2914.  2505.  2320.  2356.  2426.  2658.  3154.  4273.  7315. 20079.]
+
+noise total is [595. 476. 397. 399. 359. 370. 370. 425. 506. 608.]
+
+epoch: 29	train acc on train images is 81.37587915601023
+	test acc on test images is 75.84
+	difference total is [ 2944.  2510.  2275.  2283.  2422.  2580.  3063.  4296.  7217. 20410.]
+
+noise total is [591. 483. 388. 389. 374. 364. 357. 438. 526. 595.]
+
+epoch: 30	train acc on train images is 81.59526854219949
+	test acc on test images is 82.98
+	difference total is [ 2823.  2448.  2333.  2304.  2384.  2676.  3111.  4229.  7114. 20578.]
+
+noise total is [576. 479. 432. 381. 364. 358. 357. 444. 512. 602.]
+
+epoch: 31	train acc on train images is 81.65640984654732
+	test acc on test images is 80.51
+	difference total is [ 2839.  2455.  2217.  2239.  2434.  2588.  3130.  4271.  7300. 20527.]
+
+noise total is [564. 470. 396. 387. 393. 379. 402. 408. 528. 578.]
+
+epoch: 32	train acc on train images is 81.877797314578
+	test acc on test images is 82.69
+	difference total is [ 2802.  2385.  2303.  2178.  2397.  2651.  2995.  4325.  7374. 20590.]
+
+noise total is [556. 505. 420. 367. 383. 372. 350. 409. 520. 623.]
+
+epoch: 33	train acc on train images is 81.6272378516624
+	test acc on test images is 82.1
+	difference total is [ 2845.  2496.  2206.  2173.  2329.  2545.  3183.  4341.  7346. 20536.]
+
+noise total is [538. 533. 358. 401. 392. 366. 358. 424. 523. 612.]
+
+epoch: 34	train acc on train images is 81.76190856777494
+	test acc on test images is 76.35
+	difference total is [ 2822.  2502.  2191.  2231.  2283.  2608.  3092.  4215.  7054. 21002.]
+
+noise total is [569. 493. 406. 394. 381. 373. 390. 422. 471. 606.]
+
+epoch: 35	train acc on train images is 82.01486572890026
+	test acc on test images is 78.16
+	difference total is [ 2788.  2501.  2193.  2225.  2318.  2479.  3106.  4218.  7368. 20804.]
+
+noise total is [572. 470. 406. 372. 350. 355. 390. 415. 550. 625.]
+
+epoch: 36	train acc on train images is 81.79587595907928
+	test acc on test images is 80.21
+	difference total is [ 2825.  2391.  2239.  2217.  2328.  2556.  3090.  4309.  7277. 20768.]
+
+noise total is [571. 474. 410. 361. 371. 371. 393. 434. 506. 614.]
+
+epoch: 37	train acc on train images is 81.99248721227622
+	test acc on test images is 80.51
+	difference total is [ 2754.  2411.  2245.  2141.  2306.  2511.  3147.  4155.  7147. 21183.]
+
+noise total is [567. 500. 435. 374. 335. 348. 388. 413. 499. 646.]
+
+epoch: 38	train acc on train images is 82.19789002557545
+	test acc on test images is 83.04
+	difference total is [ 2738.  2281.  2266.  2191.  2244.  2571.  3056.  4198.  7361. 21094.]
+
+noise total is [577. 454. 427. 369. 343. 367. 359. 445. 538. 626.]
+
+epoch: 39	train acc on train images is 82.06361892583121
+	test acc on test images is 80.27
+	difference total is [ 2700.  2442.  2264.  2118.  2231.  2502.  3006.  4323.  7560. 20854.]
+
+noise total is [596. 467. 402. 362. 335. 371. 353. 447. 559. 613.]
+
+epoch: 40	train acc on train images is 82.25743286445012
+	test acc on test images is 81.87
+	difference total is [ 2747.  2347.  2190.  2109.  2226.  2482.  3020.  4237.  7371. 21271.]
+
+noise total is [575. 448. 442. 399. 359. 342. 375. 429. 529. 607.]
+
+epoch: 41	train acc on train images is 82.08879475703324
+	test acc on test images is 84.68
+	difference total is [ 2656.  2327.  2246.  2237.  2329.  2467.  3048.  4199.  7139. 21352.]
+
+noise total is [556. 466. 436. 379. 381. 345. 371. 417. 573. 581.]
+
+epoch: 42	train acc on train images is 81.94852941176471
+	test acc on test images is 78.09
+	difference total is [ 2713.  2474.  2225.  2161.  2257.  2584.  3090.  4136.  6996. 21364.]
+
+noise total is [534. 528. 396. 367. 383. 384. 391. 422. 474. 626.]
+
+epoch: 43	train acc on train images is 82.16632033248082
+	test acc on test images is 83.45
+	difference total is [ 2753.  2338.  2202.  2214.  2307.  2568.  3115.  4159.  7167. 21177.]
+
+noise total is [568. 485. 428. 379. 354. 379. 377. 416. 506. 613.]
+
+epoch: 44	train acc on train images is 82.28300831202046
+	test acc on test images is 80.13
+	difference total is [ 2665.  2390.  2277.  2184.  2197.  2482.  3002.  4216.  7147. 21440.]
+
+noise total is [595. 433. 436. 374. 367. 367. 379. 427. 503. 624.]
+
+epoch: 45	train acc on train images is 82.46723145780051
+	test acc on test images is 84.04
+	difference total is [ 2724.  2252.  2181.  2092.  2253.  2426.  3045.  4236.  7590. 21201.]
+
+noise total is [534. 477. 407. 377. 370. 352. 356. 410. 564. 658.]
+
+epoch: 46	train acc on train images is 82.35893542199489
+	test acc on test images is 85.46
+	difference total is [ 2701.  2356.  2172.  2120.  2186.  2534.  3131.  4265.  7222. 21313.]
+
+noise total is [557. 471. 426. 371. 332. 359. 422. 439. 515. 613.]
+
+epoch: 47	train acc on train images is 82.48641304347827
+	test acc on test images is 81.64
+	difference total is [ 2589.  2314.  2237.  2129.  2270.  2435.  3022.  4097.  7124. 21783.]
+
+noise total is [529. 498. 436. 395. 398. 334. 387. 400. 491. 637.]
+
+epoch: 48	train acc on train images is 82.57273017902813
+	test acc on test images is 79.93
+	difference total is [ 2674.  2315.  2093.  2190.  2181.  2461.  3091.  4149.  7343. 21503.]
+
+noise total is [579. 467. 390. 377. 357. 340. 397. 455. 515. 628.]
+
+epoch: 49	train acc on train images is 82.38850703324808
+	test acc on test images is 82.88
+	difference total is [ 2660.  2417.  2164.  2135.  2223.  2486.  2964.  4252.  7121. 21578.]
+
+noise total is [571. 483. 417. 364. 379. 362. 356. 409. 531. 633.]
+
+epoch: 50	train acc on train images is 82.39809782608695
+	test acc on test images is 81.28
+	difference total is [ 2661.  2284.  2157.  2122.  2270.  2516.  3064.  4094.  7313. 21519.]
+
+noise total is [551. 459. 416. 377. 342. 363. 416. 431. 538. 612.]
+
+epoch: 51	train acc on train images is 82.75775255754476
+	test acc on test images is 80.41
+	difference total is [ 2599.  2270.  2105.  2094.  2199.  2510.  3109.  4130.  7361. 21623.]
+
+noise total is [527. 483. 420. 374. 359. 389. 346. 436. 544. 627.]
+
+epoch: 52	train acc on train images is 82.57552749360613
+	test acc on test images is 77.68
+	difference total is [ 2677.  2199.  2105.  2087.  2232.  2432.  2950.  4208.  7257. 21853.]
+
+noise total is [555. 436. 422. 362. 379. 369. 409. 420. 514. 639.]
+
+epoch: 53	train acc on train images is 82.54076086956522
+	test acc on test images is 80.77
+	difference total is [ 2688.  2306.  2102.  2117.  2197.  2469.  3026.  4222.  7148. 21725.]
+
+noise total is [555. 473. 403. 357. 374. 377. 385. 466. 519. 596.]
+
+epoch: 54	train acc on train images is 82.54076086956522
+	test acc on test images is 82.35
+	difference total is [ 2635.  2281.  2216.  2136.  2211.  2407.  3078.  4138.  7095. 21803.]
+
+noise total is [522. 460. 444. 413. 336. 344. 388. 432. 521. 645.]
+
+epoch: 55	train acc on train images is 82.47682225063939
+	test acc on test images is 84.28
+	difference total is [ 2643.  2304.  2132.  2186.  2160.  2471.  3004.  4206.  7124. 21770.]
+
+noise total is [522. 466. 415. 399. 348. 355. 410. 425. 531. 634.]
+
+epoch: 56	train acc on train images is 82.75575447570333
+	test acc on test images is 83.13
+	difference total is [ 2584.  2298.  2132.  2056.  2177.  2448.  3048.  4153.  7295. 21809.]
+
+noise total is [573. 461. 378. 358. 362. 375. 395. 437. 538. 628.]
+
+epoch: 57	train acc on train images is 82.89362212276215
+	test acc on test images is 84.38
+	difference total is [ 2589.  2270.  2062.  2108.  2150.  2493.  3043.  4169.  7291. 21825.]
+
+noise total is [535. 472. 382. 387. 376. 364. 414. 419. 519. 637.]
+
+epoch: 58	train acc on train images is 82.75455562659846
+	test acc on test images is 82.24
+	difference total is [ 2556.  2250.  2056.  2177.  2187.  2420.  3129.  4246.  7340. 21639.]
+
+noise total is [544. 458. 395. 385. 338. 346. 412. 460. 538. 629.]
+
+epoch: 59	train acc on train images is 82.70500319693095
+	test acc on test images is 82.17
+	difference total is [ 2612.  2255.  2166.  2130.  2177.  2464.  2956.  4167.  7297. 21776.]
+
+noise total is [565. 482. 414. 370. 365. 355. 368. 423. 493. 670.]
+
+epoch: 60	train acc on train images is 87.58032289002557
+	test acc on test images is 91.25
+	difference total is [ 1680.  1457.  1501.  1493.  1588.  1927.  2319.  3350.  6986. 27699.]
+
+noise total is [496. 399. 388. 361. 317. 393. 376. 432. 569. 774.]
+
+epoch: 61	train acc on train images is 89.14042519181585
+	test acc on test images is 91.37
+	difference total is [ 1348.  1187.  1191.  1171.  1362.  1547.  2127.  3186.  6795. 30086.]
+
+noise total is [458. 392. 352. 348. 357. 354. 396. 445. 640. 763.]
+
+epoch: 62	train acc on train images is 89.79379795396419
+	test acc on test images is 91.54
+	difference total is [ 1207.  1081.  1048.  1145.  1190.  1509.  1986.  3027.  6539. 31268.]
+
+noise total is [427. 394. 368. 354. 326. 364. 402. 438. 648. 784.]
+
+epoch: 63	train acc on train images is 90.22937979539643
+	test acc on test images is 91.38
+	difference total is [ 1137.   984.  1048.  1046.  1241.  1369.  1863.  2821.  6407. 32084.]
+
+noise total is [440. 368. 370. 317. 350. 358. 420. 437. 616. 829.]
+
+epoch: 64	train acc on train images is 90.84998401534527
+	test acc on test images is 91.28
+	difference total is [  956.   956.   977.  1020.  1083.  1340.  1813.  2718.  6259. 32878.]
+
+noise total is [388. 393. 378. 351. 328. 367. 398. 443. 631. 828.]
+
+epoch: 65	train acc on train images is 91.08375959079284
+	test acc on test images is 90.97
+	difference total is [ 1003.   931.   943.  1005.  1085.  1295.  1676.  2683.  5975. 33404.]
+
+noise total is [411. 383. 386. 360. 336. 338. 376. 457. 644. 814.]
+
+epoch: 66	train acc on train images is 91.44021739130434
+	test acc on test images is 90.9
+	difference total is [  951.   911.   891.   881.  1043.  1245.  1617.  2516.  5523. 34422.]
+
+noise total is [411. 374. 360. 337. 333. 384. 369. 473. 588. 876.]
+
+epoch: 67	train acc on train images is 91.70076726342711
+	test acc on test images is 90.5
+	difference total is [  893.   888.   902.   886.   983.  1192.  1586.  2472.  5375. 34823.]
+
+noise total is [408. 351. 374. 360. 329. 343. 384. 464. 600. 892.]
+
+epoch: 68	train acc on train images is 92.00047953964194
+	test acc on test images is 90.11
+	difference total is [  896.   843.   833.   892.   970.  1110.  1445.  2303.  5095. 35613.]
+
+noise total is [441. 392. 353. 334. 291. 341. 378. 450. 583. 942.]
+
+epoch: 69	train acc on train images is 92.28021099744245
+	test acc on test images is 90.01
+	difference total is [  856.   807.   783.   852.   947.  1100.  1450.  2252.  5032. 35921.]
+
+noise total is [405. 362. 325. 354. 318. 374. 373. 428. 613. 953.]
+
+epoch: 70	train acc on train images is 92.52877237851662
+	test acc on test images is 89.69
+	difference total is [  821.   761.   788.   833.   883.  1053.  1461.  2279.  4828. 36293.]
+
+noise total is [ 385.  353.  342.  316.  275.  336.  370.  475.  636. 1017.]
+
+epoch: 71	train acc on train images is 92.73057864450128
+	test acc on test images is 88.81
+	difference total is [  777.   709.   803.   799.   841.  1046.  1413.  2119.  4624. 36869.]
+
+noise total is [ 378.  325.  345.  331.  301.  339.  370.  470.  606. 1040.]
+
+epoch: 72	train acc on train images is 92.97953964194373
+	test acc on test images is 89.89
+	difference total is [  829.   777.   759.   763.   847.  1009.  1385.  2016.  4408. 37207.]
+
+noise total is [ 403.  329.  309.  281.  300.  353.  392.  451.  617. 1070.]
+
+epoch: 73	train acc on train images is 92.98793158567774
+	test acc on test images is 89.49
+	difference total is [  769.   751.   703.   789.   809.  1020.  1350.  2046.  4417. 37346.]
+
+noise total is [ 352.  354.  306.  332.  310.  308.  363.  441.  632. 1107.]
+
+epoch: 74	train acc on train images is 93.2720588235294
+	test acc on test images is 88.95
+	difference total is [  725.   766.   749.   779.   807.  1019.  1334.  1908.  4198. 37715.]
+
+noise total is [ 346.  333.  328.  295.  287.  340.  364.  458.  627. 1127.]
+
+epoch: 75	train acc on train images is 93.38035485933504
+	test acc on test images is 88.92
+	difference total is [  762.   720.   710.   674.   850.   974.  1231.  1967.  4060. 38052.]
+
+noise total is [ 344.  330.  309.  249.  323.  327.  347.  457.  623. 1196.]
+
+epoch: 76	train acc on train images is 93.46347506393862
+	test acc on test images is 89.39
+	difference total is [  743.   693.   717.   699.   734.   928.  1307.  1972.  4158. 38049.]
+
+noise total is [ 351.  307.  307.  277.  265.  322.  374.  462.  634. 1206.]
+
+epoch: 77	train acc on train images is 93.47706202046035
+	test acc on test images is 88.78
+	difference total is [  730.   697.   692.   741.   803.   946.  1220.  1889.  3889. 38393.]
+
+noise total is [ 347.  298.  299.  298.  308.  335.  348.  420.  577. 1275.]
+
+epoch: 78	train acc on train images is 93.60693734015345
+	test acc on test images is 88.7
+	difference total is [  714.   688.   713.   713.   804.   902.  1239.  1934.  3945. 38348.]
+
+noise total is [ 341.  320.  312.  287.  306.  274.  361.  460.  618. 1226.]
+
+epoch: 79	train acc on train images is 93.71523337595907
+	test acc on test images is 88.88
+	difference total is [  758.   663.   682.   746.   778.   892.  1239.  1869.  3705. 38668.]
+
+noise total is [ 351.  276.  304.  302.  278.  287.  366.  448.  592. 1301.]
+
+epoch: 80	train acc on train images is 93.78916240409207
+	test acc on test images is 87.08
+	difference total is [  754.   653.   687.   713.   829.   952.  1147.  1851.  3634. 38780.]
+
+noise total is [ 356.  279.  311.  276.  285.  319.  310.  456.  583. 1330.]
+
+epoch: 81	train acc on train images is 93.670476342711
+	test acc on test images is 88.18
+	difference total is [  733.   700.   683.   756.   793.   946.  1231.  1804.  3602. 38752.]
+
+noise total is [ 344.  297.  291.  287.  291.  315.  365.  368.  611. 1336.]
+
+epoch: 82	train acc on train images is 93.8590952685422
+	test acc on test images is 88.7
+	difference total is [  706.   697.   680.   739.   840.   901.  1156.  1767.  3559. 38955.]
+
+noise total is [ 324.  344.  284.  302.  287.  305.  315.  417.  591. 1336.]
+
+epoch: 83	train acc on train images is 93.91304347826087
+	test acc on test images is 88.11
+	difference total is [  733.   686.   652.   698.   780.   915.  1212.  1753.  3556. 39015.]
+
+noise total is [ 345.  301.  253.  294.  288.  310.  355.  414.  577. 1368.]
+
+epoch: 84	train acc on train images is 94.05850383631713
+	test acc on test images is 88.25
+	difference total is [  739.   717.   618.   694.   670.   919.  1152.  1754.  3551. 39186.]
+
+noise total is [ 346.  321.  249.  291.  247.  325.  337.  415.  599. 1375.]
+
+epoch: 85	train acc on train images is 93.95060741687979
+	test acc on test images is 88.1
+	difference total is [  726.   682.   679.   718.   835.   891.  1210.  1739.  3325. 39195.]
+
+noise total is [ 327.  281.  277.  296.  329.  294.  354.  384.  570. 1393.]
+
+epoch: 86	train acc on train images is 94.52645460358056
+	test acc on test images is 88.27
+	difference total is [  665.   624.   656.   634.   756.   864.  1083.  1616.  3280. 39822.]
+
+noise total is [ 300.  271.  280.  246.  262.  296.  319.  422.  596. 1513.]
+
+epoch: 87	train acc on train images is 94.20276534526855
+	test acc on test images is 85.21
+	difference total is [  696.   680.   641.   629.   718.   907.  1106.  1649.  3247. 39727.]
+
+noise total is [ 314.  315.  289.  262.  267.  294.  330.  414.  587. 1433.]
+
+epoch: 88	train acc on train images is 94.2834878516624
+	test acc on test images is 88.32
+	difference total is [  700.   637.   657.   687.   715.   900.  1222.  1707.  3108. 39667.]
+
+noise total is [ 331.  291.  288.  278.  256.  304.  367.  426.  494. 1470.]
+
+epoch: 89	train acc on train images is 94.56401854219949
+	test acc on test images is 86.55
+	difference total is [  735.   637.   629.   691.   742.   849.  1078.  1581.  3080. 39978.]
+
+noise total is [ 336.  287.  253.  271.  266.  278.  308.  430.  568. 1508.]
+
+epoch: 90	train acc on train images is 94.54523657289002
+	test acc on test images is 86.36
+	difference total is [  677.   619.   660.   668.   742.   873.  1092.  1569.  3025. 40075.]
+
+noise total is [ 310.  266.  261.  267.  277.  288.  301.  406.  564. 1565.]
+
+epoch: 91	train acc on train images is 94.57800511508951
+	test acc on test images is 87.77
+	difference total is [  670.   608.   642.   714.   734.   840.  1040.  1553.  2971. 40228.]
+
+noise total is [ 300.  279.  255.  276.  271.  281.  309.  424.  576. 1534.]
+
+epoch: 92	train acc on train images is 94.78980179028133
+	test acc on test images is 87.53
+	difference total is [  692.   628.   657.   607.   749.   804.  1031.  1488.  3025. 40319.]
+
+noise total is [ 335.  289.  298.  241.  287.  291.  303.  356.  554. 1551.]
+
+epoch: 93	train acc on train images is 94.82057225063939
+	test acc on test images is 86.33
+	difference total is [  680.   617.   653.   630.   672.   833.  1021.  1580.  2924. 40390.]
+
+noise total is [ 279.  262.  288.  256.  253.  306.  304.  386.  560. 1611.]
+
+epoch: 94	train acc on train images is 94.86772698209718
+	test acc on test images is 87.2
+	difference total is [  644.   585.   597.   599.   707.   830.  1061.  1598.  2945. 40434.]
+
+noise total is [ 296.  248.  261.  248.  263.  299.  327.  424.  541. 1598.]
+
+epoch: 95	train acc on train images is 94.94005754475704
+	test acc on test images is 87.83
+	difference total is [  627.   622.   595.   623.   694.   866.  1001.  1487.  2787. 40698.]
+
+noise total is [ 288.  264.  231.  238.  269.  306.  314.  376.  594. 1625.]
+
+epoch: 96	train acc on train images is 95.10110294117646
+	test acc on test images is 87.16
+	difference total is [  599.   596.   607.   613.   706.   754.   988.  1437.  2792. 40908.]
+
+noise total is [ 274.  254.  254.  242.  266.  255.  317.  352.  532. 1759.]
+
+epoch: 97	train acc on train images is 95.18742007672634
+	test acc on test images is 88.09
+	difference total is [  607.   559.   567.   588.   667.   796.  1014.  1494.  2747. 40961.]
+
+noise total is [ 274.  250.  227.  240.  260.  258.  333.  433.  546. 1684.]
+
+epoch: 98	train acc on train images is 95.28053069053709
+	test acc on test images is 86.0
+	difference total is [  590.   587.   559.   615.   678.   775.  1004.  1402.  2748. 41042.]
+
+noise total is [ 257.  262.  245.  238.  233.  261.  307.  380.  582. 1740.]
+
+epoch: 99	train acc on train images is 95.20899936061382
+	test acc on test images is 86.02
+	difference total is [  605.   565.   609.   584.   660.   814.  1027.  1413.  2705. 41018.]
+
+noise total is [ 264.  249.  243.  241.  232.  272.  322.  400.  548. 1734.]
+
+
+final test acc on test images is 86.02
+max test acc on test images is 91.54
+Total runtime of the program is: 01:38:15
