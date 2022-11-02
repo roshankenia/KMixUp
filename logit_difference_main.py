@@ -270,11 +270,11 @@ def findDivide(model, train_loader, noise_or_not, noise_threshold):
             else:
                 clean_ind.append(ind[j])
                 clean_ind_noise += noise_or_not[ind[j]]
-        print(f'Number of noisy samples: {len(noisy_ind)}')
-        print(f'Noisy noise percentage: {(noisy_ind_noise/len(noisy_ind))}')
-        print(f'Number of clean samples: {len(clean_ind)}')
-        print(f'Clean noise percentage: {(clean_ind_noise/len(clean_ind))}')
-        return clean_ind, noisy_ind
+    print(f'Number of noisy samples: {len(noisy_ind)}')
+    print(f'Noisy noise percentage: {(noisy_ind_noise/len(noisy_ind))}')
+    print(f'Number of clean samples: {len(clean_ind)}')
+    print(f'Clean noise percentage: {(clean_ind_noise/len(clean_ind))}')
+    return clean_ind, noisy_ind
 
 
 #####################################main code ################################################
