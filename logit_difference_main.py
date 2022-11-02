@@ -339,32 +339,41 @@ max_test = 0
 
 noise_prior_cur = noise_prior
 for epoch in range(args.n_epoch):
-    # find clean/noisy
-    clean_ind, noisy_ind = findDivide(
-        model, train_loader, noise_or_not, args.nt)
+    if epoch >= 1:
+        # find clean/noisy
+        clean_ind, noisy_ind = findDivide(
+            model, train_loader, noise_or_not, args.nt)
 
-    # create clean and noisy datasets
-    clean_data = CIFAR10Index(train_dataset.train_data[clean_ind], train_dataset.train_labels[clean_ind], train_dataset.train_noisy_labels[clean_ind],
-                              train_dataset.noise_type, train_dataset.transform, train_dataset.target_transform)
-    noisy_data = CIFAR10Index(train_dataset.train_data[noisy_ind], train_dataset.train_labels[noisy_ind], train_dataset.train_noisy_labels[noisy_ind],
-                              train_dataset.noise_type, train_dataset.transform, train_dataset.target_transform)
-    # create data loaders
-    clean_train_loader = torch.utils.data.DataLoader(dataset=clean_data,
-                                                     batch_size=128,
-                                                     num_workers=args.num_workers,
-                                                     shuffle=True)
-    noisy_train_loader = torch.utils.data.DataLoader(dataset=noisy_data,
-                                                     batch_size=128,
-                                                     num_workers=args.num_workers,
-                                                     shuffle=True)
+        # create clean and noisy datasets
+        clean_data = CIFAR10Index(train_dataset.train_data[clean_ind], train_dataset.train_labels[clean_ind], train_dataset.train_noisy_labels[clean_ind],
+                                  train_dataset.noise_type, train_dataset.transform, train_dataset.target_transform)
+        noisy_data = CIFAR10Index(train_dataset.train_data[noisy_ind], train_dataset.train_labels[noisy_ind], train_dataset.train_noisy_labels[noisy_ind],
+                                  train_dataset.noise_type, train_dataset.transform, train_dataset.target_transform)
+        # create data loaders
+        clean_train_loader = torch.utils.data.DataLoader(dataset=clean_data,
+                                                         batch_size=128,
+                                                         num_workers=args.num_workers,
+                                                         shuffle=True)
+        noisy_train_loader = torch.utils.data.DataLoader(dataset=noisy_data,
+                                                         batch_size=128,
+                                                         num_workers=args.num_workers,
+                                                         shuffle=True)
 
     # train models
     print(f'epoch {epoch}')
     adjust_learning_rate(optimizer, epoch, alpha_plan)
     model.train()
     # train clean then train noisy
-    clean_train_acc = clean_train(epoch, clean_train_loader, model, optimizer)
-    noisy_train_acc = noisy_train(epoch, noisy_train_loader, model, optimizer)
+
+    # pretrain case
+    if epoch < 1:
+        clean_train_acc = clean_train(epoch, train_loader, model, optimizer)
+        noisy_train_acc = 0
+    else:
+        clean_train_acc = clean_train(
+            epoch, clean_train_loader, model, optimizer)
+        noisy_train_acc = noisy_train(
+            epoch, noisy_train_loader, model, optimizer)
     # evaluate models
     test_acc = evaluate(test_loader=test_loader, model=model)
 
