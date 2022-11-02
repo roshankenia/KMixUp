@@ -345,9 +345,9 @@ for epoch in range(args.n_epoch):
             model, train_loader, noise_or_not, args.nt)
 
         # create clean and noisy datasets
-        clean_data = CIFAR10Index(train_dataset.train_data[clean_ind], train_dataset.train_labels[clean_ind], train_dataset.train_noisy_labels[clean_ind],
+        clean_data = CIFAR10Index(np.array(train_dataset.train_data)[clean_ind], np.array(train_dataset.train_labels)[clean_ind], np.array(train_dataset.train_noisy_labels)[clean_ind],
                                   train_dataset.noise_type, train_dataset.transform, train_dataset.target_transform)
-        noisy_data = CIFAR10Index(train_dataset.train_data[noisy_ind], train_dataset.train_labels[noisy_ind], train_dataset.train_noisy_labels[noisy_ind],
+        noisy_data = CIFAR10Index(np.array(train_dataset.train_data)[noisy_ind], np.array(train_dataset.train_labels)[noisy_ind], np.array(train_dataset.train_noisy_labels)[noisy_ind],
                                   train_dataset.noise_type, train_dataset.transform, train_dataset.target_transform)
         # create data loaders
         clean_train_loader = torch.utils.data.DataLoader(dataset=clean_data,

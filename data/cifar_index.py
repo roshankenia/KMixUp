@@ -28,9 +28,9 @@ class CIFAR10Index(data.Dataset):
         self.transform = transform
         self.target_transform = target_transform
         self.noise_type = noise_type
-        self.train_data = train_data
-        self.train_labels = train_labels
-        self.train_noisy_labels = train_noisy_labels
+        self.train_data = list(train_data)
+        self.train_labels = list(train_labels)
+        self.train_noisy_labels = list(train_noisy_labels)
 
     def __getitem__(self, index):
         """
