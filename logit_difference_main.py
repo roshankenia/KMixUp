@@ -339,7 +339,7 @@ max_test = 0
 
 noise_prior_cur = noise_prior
 for epoch in range(args.n_epoch):
-    if epoch >= 1:
+    if epoch >= 10:
         # find clean/noisy
         clean_ind, noisy_ind = findDivide(
             model, train_loader, noise_or_not, args.nt)
@@ -366,7 +366,7 @@ for epoch in range(args.n_epoch):
     # train clean then train noisy
 
     # pretrain case
-    if epoch < 1:
+    if epoch < 10:
         clean_train_acc = clean_train(epoch, train_loader, model, optimizer)
         noisy_train_acc = 0
     else:
