@@ -1,0 +1,8 @@
+
+epoch: 0	clean train acc on train images is 20.29331841432225
+	noisy train acc on train images is 0
+	test acc on test images is 32.52
+
+epoch: 1	clean train acc on train images is 43.333333333333336
+	noisy train acc on train images is 23.999503927027927
+	test acc on test images is 37.73
