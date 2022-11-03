@@ -37,9 +37,13 @@ parser.add_argument('--num_workers', type=int, default=4,
 parser.add_argument('--is_human', action='store_true', default=False)
 parser.add_argument('--nt', type=float, default=0.3,
                     help='Noise threshold to divide noisy/clean')
+args = parser.parse_args()
 # Adjust learning rate and for SGD Optimizer
 # store starting time
 begin = time.time()
+
+stat_file = open('./checkpoint/%s_%s_nt_%f' %
+                 (args.dataset, args.noise_type, args.nt)+'_log_diff_stats.txt', "w")
 
 
 def adjust_learning_rate(optimizer, epoch, alpha_plan):
@@ -274,11 +278,18 @@ def findDivide(model, train_loader, noise_or_not, noise_threshold):
     print(f'Noisy noise percentage: {(noisy_ind_noise/len(noisy_ind))}')
     print(f'Number of clean samples: {len(clean_ind)}')
     print(f'Clean noise percentage: {(clean_ind_noise/len(clean_ind))}')
+
+    n_per = noisy_ind_noise/len(noisy_ind)
+    c_per = clean_ind_noise/len(clean_ind)
+    stat_file.write("Number of noisy samples: " + str(len(noisy_ind))+"\n")
+    stat_file.write("Noisy noise percentage: "+str(n_per)+"\n")
+    stat_file.write("Number of clean samples: " + str(len(clean_ind))+"\n")
+    stat_file.write("Clean noise percentage: "+str(c_per)+"\n")
+    stat_file.flush()
     return clean_ind, noisy_ind
 
 
 #####################################main code ################################################
-args = parser.parse_args()
 # Seed
 torch.manual_seed(args.seed)
 torch.cuda.manual_seed(args.seed)
@@ -333,12 +344,14 @@ noisy_train_acc = 0
 
 # training
 # training
-file = open('./checkpoint/%s_%s_nt_%d' %
+file = open('./checkpoint/%s_%s_nt_%f' %
             (args.dataset, args.noise_type, args.nt)+'_log_diff.txt', "w")
 max_test = 0
 
 noise_prior_cur = noise_prior
 for epoch in range(args.n_epoch):
+    stat_file.write("\nEpoch: "+str(epoch)+"\n")
+    stat_file.flush()
     if epoch >= 10:
         # find clean/noisy
         clean_ind, noisy_ind = findDivide(
@@ -401,3 +414,4 @@ timeTaken = time.strftime("%H:%M:%S", time.gmtime(end-begin))
 file.write('Total runtime of the program is: ' + timeTaken)
 file.flush()
 file.close()
+stat_file.close()
