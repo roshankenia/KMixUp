@@ -1,0 +1,405 @@
+
+epoch: 0	clean train acc on train images is 18.801150895140665
+	noisy train acc on train images is 0
+	test acc on test images is 27.78
+
+epoch: 1	clean train acc on train images is 26.3826726342711
+	noisy train acc on train images is 0
+	test acc on test images is 35.71
+
+epoch: 2	clean train acc on train images is 31.086556905370845
+	noisy train acc on train images is 0
+	test acc on test images is 46.19
+
+epoch: 3	clean train acc on train images is 34.77661445012788
+	noisy train acc on train images is 0
+	test acc on test images is 46.93
+
+epoch: 4	clean train acc on train images is 37.92279411764706
+	noisy train acc on train images is 0
+	test acc on test images is 48.96
+
+epoch: 5	clean train acc on train images is 40.34526854219949
+	noisy train acc on train images is 0
+	test acc on test images is 55.41
+
+epoch: 6	clean train acc on train images is 42.462036445012785
+	noisy train acc on train images is 0
+	test acc on test images is 54.31
+
+epoch: 7	clean train acc on train images is 43.731617647058826
+	noisy train acc on train images is 0
+	test acc on test images is 59.61
+
+epoch: 8	clean train acc on train images is 45.70332480818414
+	noisy train acc on train images is 0
+	test acc on test images is 60.74
+
+epoch: 9	clean train acc on train images is 47.07600703324808
+	noisy train acc on train images is 0
+	test acc on test images is 52.28
+
+epoch: 10	clean train acc on train images is 63.299852643694194
+	noisy train acc on train images is 34.40325572503307
+	test acc on test images is 58.43
+
+epoch: 11	clean train acc on train images is 20.3125
+	noisy train acc on train images is 37.862594409367006
+	test acc on test images is 62.73
+
+epoch: 12	clean train acc on train images is 48.857059478759766
+	noisy train acc on train images is 37.67349755733204
+	test acc on test images is 68.11
+
+epoch: 13	clean train acc on train images is 17.948719024658203
+	noisy train acc on train images is 37.968300431585675
+	test acc on test images is 66.95
+
+epoch: 14	clean train acc on train images is 35.416664123535156
+	noisy train acc on train images is 37.699161157852565
+	test acc on test images is 67.03
+
+epoch: 15	clean train acc on train images is 46.029266357421875
+	noisy train acc on train images is 37.90073885658915
+	test acc on test images is 68.68
+
+epoch: 16	clean train acc on train images is 46.71875
+	noisy train acc on train images is 37.55712007428941
+	test acc on test images is 60.65
+
+epoch: 17	clean train acc on train images is 36.68981424967448
+	noisy train acc on train images is 38.552210856958766
+	test acc on test images is 61.96
+
+epoch: 18	clean train acc on train images is 62.065269470214844
+	noisy train acc on train images is 38.645824943621136
+	test acc on test images is 70.68
+
+epoch: 19	clean train acc on train images is 64.369873046875
+	noisy train acc on train images is 40.008299519541346
+	test acc on test images is 70.44
+
+epoch: 20	clean train acc on train images is 63.19959513346354
+	noisy train acc on train images is 38.20204951298701
+	test acc on test images is 69.4
+
+epoch: 21	clean train acc on train images is 59.15032280815972
+	noisy train acc on train images is 38.18277527333551
+	test acc on test images is 72.86
+
+epoch: 22	clean train acc on train images is 50.9375
+	noisy train acc on train images is 37.096003411660206
+	test acc on test images is 66.28
+
+epoch: 23	clean train acc on train images is 11.650485038757324
+	noisy train acc on train images is 39.77122395833333
+	test acc on test images is 67.33
+
+epoch: 24	clean train acc on train images is 62.07932662963867
+	noisy train acc on train images is 39.22485099871134
+	test acc on test images is 68.54
+
+epoch: 25	clean train acc on train images is 39.63481140136719
+	noisy train acc on train images is 40.53421232326478
+	test acc on test images is 67.76
+
+epoch: 26	clean train acc on train images is 75.80078125
+	noisy train acc on train images is 39.34668477376302
+	test acc on test images is 67.0
+
+epoch: 27	clean train acc on train images is 76.60337829589844
+	noisy train acc on train images is 40.629537104328165
+	test acc on test images is 70.89
+
+epoch: 28	clean train acc on train images is 18.032787322998047
+	noisy train acc on train images is 40.44079433743606
+	test acc on test images is 64.42
+
+epoch: 29	clean train acc on train images is 24.765625
+	noisy train acc on train images is 39.88112799244858
+	test acc on test images is 71.1
+
+epoch: 30	clean train acc on train images is 72.65625
+	noisy train acc on train images is 39.44705746299342
+	test acc on test images is 74.09
+
+epoch: 31	clean train acc on train images is 71.71717071533203
+	noisy train acc on train images is 40.27906650641026
+	test acc on test images is 67.27
+
+epoch: 32	clean train acc on train images is 43.373497009277344
+	noisy train acc on train images is 39.844661458333334
+	test acc on test images is 68.44
+
+epoch: 33	clean train acc on train images is 41.96836853027344
+	noisy train acc on train images is 40.00710204450514
+	test acc on test images is 70.58
+
+epoch: 34	clean train acc on train images is 58.63486862182617
+	noisy train acc on train images is 40.26598307291667
+	test acc on test images is 75.59
+
+epoch: 35	clean train acc on train images is 66.328125
+	noisy train acc on train images is 40.74364733573718
+	test acc on test images is 70.16
+
+epoch: 36	clean train acc on train images is 72.51984078543526
+	noisy train acc on train images is 39.674569589120374
+	test acc on test images is 72.2
+
+epoch: 37	clean train acc on train images is 72.265625
+	noisy train acc on train images is 39.63786228950777
+	test acc on test images is 70.18
+
+epoch: 38	clean train acc on train images is 31.0
+	noisy train acc on train images is 40.873379907852566
+	test acc on test images is 71.97
+
+epoch: 39	clean train acc on train images is 67.86728777204242
+	noisy train acc on train images is 40.04775746663412
+	test acc on test images is 68.14
+
+epoch: 40	clean train acc on train images is 59.719913482666016
+	noisy train acc on train images is 40.33653904236469
+	test acc on test images is 67.38
+
+epoch: 41	clean train acc on train images is 65.33634440104167
+	noisy train acc on train images is 39.051993709415584
+	test acc on test images is 67.3
+
+epoch: 42	clean train acc on train images is 65.64084879557292
+	noisy train acc on train images is 40.24695705138531
+	test acc on test images is 68.25
+
+epoch: 43	clean train acc on train images is 66.61458129882813
+	noisy train acc on train images is 40.40607588420543
+	test acc on test images is 73.93
+
+epoch: 44	clean train acc on train images is 70.6597188313802
+	noisy train acc on train images is 40.089193551651555
+	test acc on test images is 72.29
+
+epoch: 45	clean train acc on train images is 68.14630889892578
+	noisy train acc on train images is 41.15586688701923
+	test acc on test images is 69.5
+
+epoch: 46	clean train acc on train images is 73.13850233289931
+	noisy train acc on train images is 40.017012075718014
+	test acc on test images is 69.18
+
+epoch: 47	clean train acc on train images is 39.0
+	noisy train acc on train images is 40.69718549679487
+	test acc on test images is 72.1
+
+epoch: 48	clean train acc on train images is 65.98333740234375
+	noisy train acc on train images is 41.245425972043705
+	test acc on test images is 68.59
+
+epoch: 49	clean train acc on train images is 75.96446533203125
+	noisy train acc on train images is 39.66513646243438
+	test acc on test images is 73.94
+
+epoch: 50	clean train acc on train images is 69.375
+	noisy train acc on train images is 40.256641130990936
+	test acc on test images is 75.21
+
+epoch: 51	clean train acc on train images is 43.269229888916016
+	noisy train acc on train images is 40.89381760817308
+	test acc on test images is 72.17
+
+epoch: 52	clean train acc on train images is 74.27455357142857
+	noisy train acc on train images is 40.36180607225529
+	test acc on test images is 68.23
+
+epoch: 53	clean train acc on train images is 59.462554931640625
+	noisy train acc on train images is 41.499010852931704
+	test acc on test images is 72.11
+
+epoch: 54	clean train acc on train images is 75.83332824707031
+	noisy train acc on train images is 41.01352804021318
+	test acc on test images is 71.38
+
+epoch: 55	clean train acc on train images is 72.61766899956598
+	noisy train acc on train images is 39.090886606560055
+	test acc on test images is 71.34
+
+epoch: 56	clean train acc on train images is 44.791664123535156
+	noisy train acc on train images is 41.284011919070515
+	test acc on test images is 73.89
+
+epoch: 57	clean train acc on train images is 57.70596694946289
+	noisy train acc on train images is 40.68224216736469
+	test acc on test images is 71.11
+
+epoch: 58	clean train acc on train images is 49.955098470052086
+	noisy train acc on train images is 40.97984616002571
+	test acc on test images is 74.14
+
+epoch: 59	clean train acc on train images is 69.771630859375
+	noisy train acc on train images is 41.444164345122736
+	test acc on test images is 66.77
+
+epoch: 60	clean train acc on train images is 76.18885803222656
+	noisy train acc on train images is 44.070157251602566
+	test acc on test images is 81.43
+
+epoch: 61	clean train acc on train images is 66.66666412353516
+	noisy train acc on train images is 44.89435142263427
+	test acc on test images is 82.5
+
+epoch: 62	clean train acc on train images is 100.0
+	noisy train acc on train images is 45.45376938139386
+	test acc on test images is 83.94
+
+epoch: 63	clean train acc on train images is 65.38461303710938
+	noisy train acc on train images is 45.85331082161125
+	test acc on test images is 82.74
+
+epoch: 64	clean train acc on train images is 50.0
+	noisy train acc on train images is 45.430057145140665
+	test acc on test images is 83.74
+
+epoch: 65	clean train acc on train images is 100.0
+	noisy train acc on train images is 45.34784107257033
+	test acc on test images is 84.27
+
+epoch: 66	clean train acc on train images is 25.853588104248047
+	noisy train acc on train images is 46.25045187982005
+	test acc on test images is 83.02
+
+epoch: 67	clean train acc on train images is 22.916666666666668
+	noisy train acc on train images is 44.889073545951156
+	test acc on test images is 82.8
+
+epoch: 68	clean train acc on train images is 0.0
+	noisy train acc on train images is 46.04859335038363
+	test acc on test images is 83.87
+
+epoch: 69	clean train acc on train images is 62.5
+	noisy train acc on train images is 46.30471747122762
+	test acc on test images is 83.74
+
+epoch: 70	clean train acc on train images is 70.88068389892578
+	noisy train acc on train images is 46.63881209935897
+	test acc on test images is 82.41
+
+epoch: 71	clean train acc on train images is 77.09516906738281
+	noisy train acc on train images is 46.32283948131443
+	test acc on test images is 83.31
+
+epoch: 72	clean train acc on train images is 85.71428680419922
+	noisy train acc on train images is 46.31529447115385
+	test acc on test images is 81.78
+
+epoch: 73	clean train acc on train images is 100.0
+	noisy train acc on train images is 45.85797134750639
+	test acc on test images is 82.22
+
+epoch: 74	clean train acc on train images is 88.88888549804688
+	noisy train acc on train images is 46.69637148337596
+	test acc on test images is 81.99
+
+epoch: 75	clean train acc on train images is 45.10625
+	noisy train acc on train images is 45.45967074450905
+	test acc on test images is 84.19
+
+epoch: 76	clean train acc on train images is 38.87567901611328
+	noisy train acc on train images is 46.84497195512821
+	test acc on test images is 81.55
+
+epoch: 77	clean train acc on train images is 68.38541259765626
+	noisy train acc on train images is 46.36355377906977
+	test acc on test images is 82.05
+
+epoch: 78	clean train acc on train images is 81.57894897460938
+	noisy train acc on train images is 46.95716112531969
+	test acc on test images is 82.89
+
+epoch: 79	clean train acc on train images is 76.9230728149414
+	noisy train acc on train images is 46.77219868925831
+	test acc on test images is 83.34
+
+epoch: 80	clean train acc on train images is 74.609375
+	noisy train acc on train images is 47.129822716346155
+	test acc on test images is 83.29
+
+epoch: 81	clean train acc on train images is 57.741477966308594
+	noisy train acc on train images is 46.730043068910255
+	test acc on test images is 82.73
+
+epoch: 82	clean train acc on train images is 85.71428680419922
+	noisy train acc on train images is 47.12396599264706
+	test acc on test images is 82.02
+
+epoch: 83	clean train acc on train images is 43.6893196105957
+	noisy train acc on train images is 46.59988982371795
+	test acc on test images is 80.31
+
+epoch: 84	clean train acc on train images is 90.51724243164062
+	noisy train acc on train images is 46.67477463942308
+	test acc on test images is 81.24
+
+epoch: 85	clean train acc on train images is 83.68354797363281
+	noisy train acc on train images is 46.802281330541234
+	test acc on test images is 81.62
+
+epoch: 86	clean train acc on train images is 30.0
+	noisy train acc on train images is 47.33744605179028
+	test acc on test images is 81.18
+
+epoch: 87	clean train acc on train images is 42.105262756347656
+	noisy train acc on train images is 47.57796015824808
+	test acc on test images is 79.71
+
+epoch: 88	clean train acc on train images is 35.59321975708008
+	noisy train acc on train images is 47.65594029731458
+	test acc on test images is 80.13
+
+epoch: 89	clean train acc on train images is 52.173912048339844
+	noisy train acc on train images is 47.81886888586956
+	test acc on test images is 80.69
+
+epoch: 90	clean train acc on train images is 66.66666412353516
+	noisy train acc on train images is 47.50755774456522
+	test acc on test images is 81.13
+
+epoch: 91	clean train acc on train images is 48.767250061035156
+	noisy train acc on train images is 48.54380008012821
+	test acc on test images is 79.89
+
+epoch: 92	clean train acc on train images is 20.0
+	noisy train acc on train images is 47.59655230978261
+	test acc on test images is 80.53
+
+epoch: 93	clean train acc on train images is 72.34042358398438
+	noisy train acc on train images is 47.12204283887468
+	test acc on test images is 79.21
+
+epoch: 94	clean train acc on train images is 75.59524100167411
+	noisy train acc on train images is 47.374228896103894
+	test acc on test images is 81.66
+
+epoch: 95	clean train acc on train images is 81.8266372680664
+	noisy train acc on train images is 47.17501322428385
+	test acc on test images is 79.51
+
+epoch: 96	clean train acc on train images is 81.25
+	noisy train acc on train images is 48.692600103900254
+	test acc on test images is 79.32
+
+epoch: 97	clean train acc on train images is 66.66666412353516
+	noisy train acc on train images is 48.209039463141025
+	test acc on test images is 79.2
+
+epoch: 98	clean train acc on train images is 73.83194308810764
+	noisy train acc on train images is 47.94885062172775
+	test acc on test images is 77.8
+
+epoch: 99	clean train acc on train images is 84.375
+	noisy train acc on train images is 47.34848758012821
+	test acc on test images is 80.55
+
+
+final test acc on test images is 80.55
+max test acc on test images is 84.27
+Total runtime of the program is: 01:41:47

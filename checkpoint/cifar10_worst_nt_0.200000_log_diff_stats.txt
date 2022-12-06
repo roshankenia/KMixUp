@@ -1,0 +1,560 @@
+
+Epoch: 0
+
+Epoch: 1
+
+Epoch: 2
+
+Epoch: 3
+
+Epoch: 4
+
+Epoch: 5
+
+Epoch: 6
+
+Epoch: 7
+
+Epoch: 8
+
+Epoch: 9
+
+Epoch: 10
+Number of noisy samples: 27529
+Noisy noise percentage: 0.4435322750553961
+Number of clean samples: 22471
+Clean noise percentage: 0.35129722753771525
+
+Epoch: 11
+Number of noisy samples: 29745
+Noisy noise percentage: 0.4403765338712389
+Number of clean samples: 20255
+Clean noise percentage: 0.3458405332016786
+
+Epoch: 12
+Number of noisy samples: 28485
+Noisy noise percentage: 0.4483763384237318
+Number of clean samples: 21515
+Clean noise percentage: 0.34078549848942596
+
+Epoch: 13
+Number of noisy samples: 29338
+Noisy noise percentage: 0.4461108460017724
+Number of clean samples: 20662
+Clean noise percentage: 0.33956054592972607
+
+Epoch: 14
+Number of noisy samples: 29904
+Noisy noise percentage: 0.440944355270198
+Number of clean samples: 20096
+Clean noise percentage: 0.34424761146496813
+
+Epoch: 15
+Number of noisy samples: 24076
+Noisy noise percentage: 0.46016780196045853
+Number of clean samples: 25924
+Clean noise percentage: 0.3481330041660238
+
+Epoch: 16
+Number of noisy samples: 31931
+Noisy noise percentage: 0.42883091666405687
+Number of clean samples: 18069
+Clean noise percentage: 0.354806574796613
+
+Epoch: 17
+Number of noisy samples: 27336
+Noisy noise percentage: 0.46052824114720514
+Number of clean samples: 22664
+Clean noise percentage: 0.3315831274267561
+
+Epoch: 18
+Number of noisy samples: 26236
+Noisy noise percentage: 0.4658484525080043
+Number of clean samples: 23764
+Clean noise percentage: 0.331678168658475
+
+Epoch: 19
+Number of noisy samples: 28297
+Noisy noise percentage: 0.4554546418348235
+Number of clean samples: 21703
+Clean noise percentage: 0.3324885960466295
+
+Epoch: 20
+Number of noisy samples: 24698
+Noisy noise percentage: 0.4431128026560855
+Number of clean samples: 25302
+Clean noise percentage: 0.3620267172555529
+
+Epoch: 21
+Number of noisy samples: 33026
+Noisy noise percentage: 0.4539150971961485
+Number of clean samples: 16974
+Clean noise percentage: 0.3012254035583834
+
+Epoch: 22
+Number of noisy samples: 25823
+Noisy noise percentage: 0.4600162645703443
+Number of clean samples: 24177
+Clean noise percentage: 0.34019936303097986
+
+Epoch: 23
+Number of noisy samples: 26944
+Noisy noise percentage: 0.46823040380047504
+Number of clean samples: 23056
+Clean noise percentage: 0.3247744621790423
+
+Epoch: 24
+Number of noisy samples: 27210
+Noisy noise percentage: 0.4450202131569276
+Number of clean samples: 22790
+Clean noise percentage: 0.3508117595436595
+
+Epoch: 25
+Number of noisy samples: 26806
+Noisy noise percentage: 0.4513541744385585
+Number of clean samples: 23194
+Clean noise percentage: 0.34513236181771145
+
+Epoch: 26
+Number of noisy samples: 29629
+Noisy noise percentage: 0.4481420230179891
+Number of clean samples: 20371
+Clean noise percentage: 0.3350841883069069
+
+Epoch: 27
+Number of noisy samples: 25223
+Noisy noise percentage: 0.4652896166197518
+Number of clean samples: 24777
+Clean noise percentage: 0.3377325745651209
+
+Epoch: 28
+Number of noisy samples: 29026
+Noisy noise percentage: 0.4538000413422449
+Number of clean samples: 20974
+Clean noise percentage: 0.33050443406121865
+
+Epoch: 29
+Number of noisy samples: 22241
+Noisy noise percentage: 0.4801043118564813
+Number of clean samples: 27759
+Clean noise percentage: 0.3395655463093051
+
+Epoch: 30
+Number of noisy samples: 25235
+Noisy noise percentage: 0.4626907073509015
+Number of clean samples: 24765
+Clean noise percentage: 0.3403189985867151
+
+Epoch: 31
+Number of noisy samples: 25722
+Noisy noise percentage: 0.4775678407588834
+Number of clean samples: 24278
+Clean noise percentage: 0.32210231485295326
+
+Epoch: 32
+Number of noisy samples: 27171
+Noisy noise percentage: 0.467520518199551
+Number of clean samples: 22829
+Clean noise percentage: 0.3241929125235446
+
+Epoch: 33
+Number of noisy samples: 24832
+Noisy noise percentage: 0.4575144974226804
+Number of clean samples: 25168
+Clean noise percentage: 0.34738556897647804
+
+Epoch: 34
+Number of noisy samples: 23533
+Noisy noise percentage: 0.46725874304168613
+Number of clean samples: 26467
+Clean noise percentage: 0.3441266482789889
+
+Epoch: 35
+Number of noisy samples: 27093
+Noisy noise percentage: 0.47403388329088697
+Number of clean samples: 22907
+Clean noise percentage: 0.31697734317021
+
+Epoch: 36
+Number of noisy samples: 28190
+Noisy noise percentage: 0.4595246541326712
+Number of clean samples: 21810
+Clean noise percentage: 0.32783127005960566
+
+Epoch: 37
+Number of noisy samples: 24829
+Noisy noise percentage: 0.47847275363486247
+Number of clean samples: 25171
+Clean noise percentage: 0.32672519963450003
+
+Epoch: 38
+Number of noisy samples: 27261
+Noisy noise percentage: 0.4473790396537178
+Number of clean samples: 22739
+Clean noise percentage: 0.3477725493645279
+
+Epoch: 39
+Number of noisy samples: 24768
+Noisy noise percentage: 0.47351421188630494
+Number of clean samples: 25232
+Clean noise percentage: 0.3319594166138237
+
+Epoch: 40
+Number of noisy samples: 23845
+Noisy noise percentage: 0.48362340113231284
+Number of clean samples: 26155
+Clean noise percentage: 0.32773848212578854
+
+Epoch: 41
+Number of noisy samples: 32269
+Noisy noise percentage: 0.4597291518175339
+Number of clean samples: 17731
+Clean noise percentage: 0.2971631605662399
+
+Epoch: 42
+Number of noisy samples: 21130
+Noisy noise percentage: 0.4796971131093232
+Number of clean samples: 28870
+Clean noise percentage: 0.34527190855559403
+
+Epoch: 43
+Number of noisy samples: 28161
+Noisy noise percentage: 0.46312275842477185
+Number of clean samples: 21839
+Clean noise percentage: 0.3233664545079903
+
+Epoch: 44
+Number of noisy samples: 25110
+Noisy noise percentage: 0.45316606929510156
+Number of clean samples: 24890
+Clean noise percentage: 0.35054238650060265
+
+Epoch: 45
+Number of noisy samples: 25497
+Noisy noise percentage: 0.47570302388516295
+Number of clean samples: 24503
+Clean noise percentage: 0.32547035056931806
+
+Epoch: 46
+Number of noisy samples: 26989
+Noisy noise percentage: 0.4723776353329134
+Number of clean samples: 23011
+Clean noise percentage: 0.31962974229716223
+
+Epoch: 47
+Number of noisy samples: 27830
+Noisy noise percentage: 0.4761408551922386
+Number of clean samples: 22170
+Clean noise percentage: 0.30911141181777174
+
+Epoch: 48
+Number of noisy samples: 23576
+Noisy noise percentage: 0.48010688836104515
+Number of clean samples: 26424
+Clean noise percentage: 0.33246291250378446
+
+Epoch: 49
+Number of noisy samples: 27163
+Noisy noise percentage: 0.4679527298162942
+Number of clean samples: 22837
+Clean noise percentage: 0.32372903621316285
+
+Epoch: 50
+Number of noisy samples: 26821
+Noisy noise percentage: 0.46534431974945006
+Number of clean samples: 23179
+Clean noise percentage: 0.32887527503343544
+
+Epoch: 51
+Number of noisy samples: 25396
+Noisy noise percentage: 0.45054339266026144
+Number of clean samples: 24604
+Clean noise percentage: 0.352056576166477
+
+Epoch: 52
+Number of noisy samples: 24308
+Noisy noise percentage: 0.47725028797103836
+Number of clean samples: 25692
+Clean noise percentage: 0.3309590534018371
+
+Epoch: 53
+Number of noisy samples: 27270
+Noisy noise percentage: 0.4756875687568757
+Number of clean samples: 22730
+Clean noise percentage: 0.31377034755829303
+
+Epoch: 54
+Number of noisy samples: 27530
+Noisy noise percentage: 0.47776970577551764
+Number of clean samples: 22470
+Clean noise percentage: 0.30934579439252335
+
+Epoch: 55
+Number of noisy samples: 23218
+Noisy noise percentage: 0.4921612541993281
+Number of clean samples: 26782
+Clean noise percentage: 0.323986259427974
+
+Epoch: 56
+Number of noisy samples: 25418
+Noisy noise percentage: 0.4683688724525927
+Number of clean samples: 24582
+Clean noise percentage: 0.33353673419575297
+
+Epoch: 57
+Number of noisy samples: 26996
+Noisy noise percentage: 0.4773670173359016
+Number of clean samples: 23004
+Clean noise percentage: 0.3137280472961224
+
+Epoch: 58
+Number of noisy samples: 24602
+Noisy noise percentage: 0.48967563612714415
+Number of clean samples: 25398
+Clean noise percentage: 0.3172297031262304
+
+Epoch: 59
+Number of noisy samples: 22777
+Noisy noise percentage: 0.4774114238047153
+Number of clean samples: 27223
+Clean noise percentage: 0.33905153730301585
+
+Epoch: 60
+Number of noisy samples: 26884
+Noisy noise percentage: 0.47269751525070675
+Number of clean samples: 23116
+Clean noise percentage: 0.31995154871084963
+
+Epoch: 61
+Number of noisy samples: 16928
+Noisy noise percentage: 0.5406427221172023
+Number of clean samples: 33072
+Clean noise percentage: 0.33115626511852925
+
+Epoch: 62
+Number of noisy samples: 18547
+Noisy noise percentage: 0.5536205316223648
+Number of clean samples: 31453
+Clean noise percentage: 0.31272056719549807
+
+Epoch: 63
+Number of noisy samples: 17483
+Noisy noise percentage: 0.5667219584739461
+Number of clean samples: 32517
+Clean noise percentage: 0.31355906141402956
+
+Epoch: 64
+Number of noisy samples: 16424
+Noisy noise percentage: 0.575803701899659
+Number of clean samples: 33576
+Clean noise percentage: 0.3171015010721944
+
+Epoch: 65
+Number of noisy samples: 18663
+Noisy noise percentage: 0.5711300434013824
+Number of clean samples: 31337
+Clean noise percentage: 0.30140089989469315
+
+Epoch: 66
+Number of noisy samples: 17502
+Noisy noise percentage: 0.5719346360415952
+Number of clean samples: 32498
+Clean noise percentage: 0.3106037294602745
+
+Epoch: 67
+Number of noisy samples: 19308
+Noisy noise percentage: 0.5740107727366894
+Number of clean samples: 30692
+Clean noise percentage: 0.2939202398019028
+
+Epoch: 68
+Number of noisy samples: 20142
+Noisy noise percentage: 0.5633005659815311
+Number of clean samples: 29858
+Clean noise percentage: 0.29332172282135444
+
+Epoch: 69
+Number of noisy samples: 19677
+Noisy noise percentage: 0.57173349595975
+Number of clean samples: 30323
+Clean noise percentage: 0.2919895788675263
+
+Epoch: 70
+Number of noisy samples: 21815
+Noisy noise percentage: 0.5447627779051112
+Number of clean samples: 28185
+Clean noise percentage: 0.2916444917509313
+
+Epoch: 71
+Number of noisy samples: 18819
+Noisy noise percentage: 0.5794144215951963
+Number of clean samples: 31181
+Clean noise percentage: 0.29505147365382767
+
+Epoch: 72
+Number of noisy samples: 19627
+Noisy noise percentage: 0.5716614867274673
+Number of clean samples: 30373
+Clean noise percentage: 0.29249662529220033
+
+Epoch: 73
+Number of noisy samples: 19026
+Noisy noise percentage: 0.5832544938505203
+Number of clean samples: 30974
+Clean noise percentage: 0.2907922773939433
+
+Epoch: 74
+Number of noisy samples: 21890
+Noisy noise percentage: 0.5567839195979899
+Number of clean samples: 28110
+Clean noise percentage: 0.2816079686944148
+
+Epoch: 75
+Number of noisy samples: 20460
+Noisy noise percentage: 0.5711632453567937
+Number of clean samples: 29540
+Clean noise percentage: 0.2849695328368314
+
+Epoch: 76
+Number of noisy samples: 19976
+Noisy noise percentage: 0.5680316379655587
+Number of clean samples: 30024
+Clean noise percentage: 0.2916666666666667
+
+Epoch: 77
+Number of noisy samples: 20261
+Noisy noise percentage: 0.5775628053896649
+Number of clean samples: 29739
+Clean noise percentage: 0.28252463095598374
+
+Epoch: 78
+Number of noisy samples: 19582
+Noisy noise percentage: 0.5417219895822695
+Number of clean samples: 30418
+Clean noise percentage: 0.312183575514498
+
+Epoch: 79
+Number of noisy samples: 22286
+Noisy noise percentage: 0.5404289688593736
+Number of clean samples: 27714
+Clean noise percentage: 0.29082774049217003
+
+Epoch: 80
+Number of noisy samples: 20693
+Noisy noise percentage: 0.5518774464794858
+Number of clean samples: 29307
+Clean noise percentage: 0.296311461425598
+
+Epoch: 81
+Number of noisy samples: 21884
+Noisy noise percentage: 0.5609120818863096
+Number of clean samples: 28116
+Clean noise percentage: 0.27845354958031016
+
+Epoch: 82
+Number of noisy samples: 20401
+Noisy noise percentage: 0.5520807803539042
+Number of clean samples: 29599
+Clean noise percentage: 0.29869252339606067
+
+Epoch: 83
+Number of noisy samples: 23815
+Noisy noise percentage: 0.5552802855343271
+Number of clean samples: 26185
+Clean noise percentage: 0.2627458468588887
+
+Epoch: 84
+Number of noisy samples: 22955
+Noisy noise percentage: 0.5245044652581137
+Number of clean samples: 27045
+Clean noise percentage: 0.29816971713810314
+
+Epoch: 85
+Number of noisy samples: 21149
+Noisy noise percentage: 0.562059671852097
+Number of clean samples: 28851
+Clean noise percentage: 0.28480815223042527
+
+Epoch: 86
+Number of noisy samples: 20321
+Noisy noise percentage: 0.5342748880468481
+Number of clean samples: 29679
+Clean noise percentage: 0.3115671013174298
+
+Epoch: 87
+Number of noisy samples: 23114
+Noisy noise percentage: 0.5557238037552998
+Number of clean samples: 26886
+Clean noise percentage: 0.2699918173026854
+
+Epoch: 88
+Number of noisy samples: 21498
+Noisy noise percentage: 0.5207926318727324
+Number of clean samples: 28502
+Clean noise percentage: 0.3125394709143218
+
+Epoch: 89
+Number of noisy samples: 21893
+Noisy noise percentage: 0.5495363814918011
+Number of clean samples: 28107
+Clean noise percentage: 0.287223823246878
+
+Epoch: 90
+Number of noisy samples: 20311
+Noisy noise percentage: 0.554822509969967
+Number of clean samples: 29689
+Clean noise percentage: 0.29758496412812824
+
+Epoch: 91
+Number of noisy samples: 22298
+Noisy noise percentage: 0.5565970042156247
+Number of clean samples: 27702
+Clean noise percentage: 0.2777055808244892
+
+Epoch: 92
+Number of noisy samples: 20301
+Noisy noise percentage: 0.5541598936013005
+Number of clean samples: 29699
+Clean noise percentage: 0.29812451597696893
+
+Epoch: 93
+Number of noisy samples: 21791
+Noisy noise percentage: 0.5576614198522326
+Number of clean samples: 28209
+Clean noise percentage: 0.28189584884256796
+
+Epoch: 94
+Number of noisy samples: 21491
+Noisy noise percentage: 0.5797775813131079
+Number of clean samples: 28509
+Clean noise percentage: 0.26812585499316005
+
+Epoch: 95
+Number of noisy samples: 20740
+Noisy noise percentage: 0.5530376084860174
+Number of clean samples: 29260
+Clean noise percentage: 0.2950786056049214
+
+Epoch: 96
+Number of noisy samples: 21128
+Noisy noise percentage: 0.558595229079894
+Number of clean samples: 28872
+Clean noise percentage: 0.2875450263230812
+
+Epoch: 97
+Number of noisy samples: 21580
+Noisy noise percentage: 0.5680259499536608
+Number of clean samples: 28420
+Clean noise percentage: 0.276073187895848
+
+Epoch: 98
+Number of noisy samples: 19921
+Noisy noise percentage: 0.5519803222729782
+Number of clean samples: 30079
+Clean noise percentage: 0.3028026197679444
+
+Epoch: 99
+Number of noisy samples: 24307
+Noisy noise percentage: 0.5287777183527379
+Number of clean samples: 25693
+Clean noise percentage: 0.28221694624995136
